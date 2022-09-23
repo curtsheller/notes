@@ -5,4 +5,6 @@ Repository for notes, link, and reference for the sites before making it onto on
 - [curtsheller.com](//curtsheller.com)
 - [FunkyFrets.com](//www.funlyfrets.com)
 
-There is also a lot of notes in Joplin that can be moved to here.
+There is also a lot of notes in <strong>Joplin</strong> and [learningukulele-dev.com &#128279;](https://learningukulele-dev.com) that can be moved to here. Which should really be on its own domain. Freeing up learningukulele-dev.com for testing.
+
+
