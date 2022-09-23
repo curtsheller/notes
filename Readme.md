@@ -5,5 +5,4 @@ Repository for notes, link, and reference for the sites before making it onto on
 - [curtsheller.com](//curtsheller.com)
 - [FunkyFrets.com](//www.funlyfrets.com)
 
-
 There is also a lot of notes in Joplin that can be moved to here.
