@@ -1,3 +1,0 @@
-# Pop!_OS
-
-## Colors

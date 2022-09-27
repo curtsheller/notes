@@ -2,14 +2,15 @@
 
 #### Links
 
--   TecAdmin.net: [**MySQL on Ubuntu 20.04** -->](https://tecadmin.net/install-mysql-ubuntu-20-04/)
+- [DigitalOcean: **How To Install MySQL on Ubuntu 22.04** &#128279;](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-22-04)
 
+## Install MySQL
 ```
 $ sudo apt update
 $ sudo apt install mysql-server
 ```
 
-#### Check Status
+## Check Status
 
 After finishing the installation, the MySQL service will start automatically. To check the service status.
 
@@ -17,15 +18,38 @@ After finishing the installation, the MySQL service will start automatically. To
 $ sudo systemctl status mysql
 ```
 
-#### Secure MySQL Server
+Check version.
+```
+mysql --version
+```
+#### Response on Pop!_os
+```
+Ver 8.0.30-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+```
+## Configure MySQL
 
+### Secure MySQL Server
+
+Before running `mysql_secure_installation` do the following:
+
+```
+sudo mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+exit
+```
+Now run:
 ```
 $ sudo mysql_secure_installation
 ```
 
+```
+mysql -u root -p
+ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
+```
+
 Follow the prompts.
 
-#### Manage MySQL Service
+## Manage MySQL Service
 
 ```
 $ sudo systemctl stop mysql

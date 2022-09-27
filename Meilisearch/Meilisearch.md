@@ -1,6 +1,6 @@
 # MeiliSearch
 
-An open source, blazingly fast and hyper relevant search-engine that will improve your search experience.
+An open source, amazingly fast and hyper relevant search-engine that will improve your search experience.
 
 Current version is **v0.28** (_as of 20 Sept 2022_). Might jsut wait for first release of v1.0 before upgrading fully.
 
