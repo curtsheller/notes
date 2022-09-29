@@ -1,7 +1,7 @@
 # SSH Key Generation
 
 ```
-    cd ~/.ssh
+cd ~/.ssh
 ```
 
 ``

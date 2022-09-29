@@ -3,12 +3,12 @@
 - [Valet Linux](https://cpriego.github.io/valet-linux/)
 
 ## Install
-### Requirments
+### Requirements
 #### Ubuntu (and derivates)
 
 ```
-sudo apt-get install network-manager libnss3-tools jq xsel          # OS packages
-php*-cli php*-curl php*-mbstring php*-mcrypt php*-xml php*-zip      # PHP Extensions
+sudo apt install network-manager libnss3-tools jq xsel          # OS packages
+
 php*-sqlite3 php*-mysql php*-pgsql                                  # Optional
 
 sudo add-apt-repository -y ppa:nginx/stable                         # For `valet secure`
