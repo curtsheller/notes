@@ -78,8 +78,16 @@ GRANT ALL on mydb.* to 'myuser'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-## Notes:
-
-**phpMyAdmin** can be used to manage databases.
+## REsoruces, Notes &amp; Links
 
 -   TecAdmin.net: [**How to Install Latest phpMyAdmin on Ubuntu 20.04** -->](https://tecadmin.net/install-phpmyadmin-ubuntu-20-04/)
+
+* https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial
+* https://www.sumitbera.com/how-to-import-and-export-database-in-mysql-using-terminal/
+* https://linuxize.com/post/how-to-check-mysql-version/
+* How to Connect to MySQL Without Root Password on Terminal - https://www.tecmint.com/connect-to-mysql-without-root-password/
+* 20 MySQL (Mysqladmin) Commands for Database Administration in Linux - https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/
+* Improve your database knowledge with this MariaDB and MySQL cheat sheet - https://opensource.com/article/20/10/mariadb-mysql-cheat-sheet
+*
+MySQL Backup and Restore Commands for Database Administration
+* https://www.tecmint.com/mysql-backup-and-restore-commands-for-database-administration/
