@@ -1,1 +1,0 @@
-# Laravel Snippets and Notes
