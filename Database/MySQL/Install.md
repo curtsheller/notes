@@ -78,7 +78,7 @@ GRANT ALL on mydb.* to 'myuser'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-## REsoruces, Notes &amp; Links
+## Resoruces, Notes &amp; Links
 
 -   TecAdmin.net: [**How to Install Latest phpMyAdmin on Ubuntu 20.04** -->](https://tecadmin.net/install-phpmyadmin-ubuntu-20-04/)
 
