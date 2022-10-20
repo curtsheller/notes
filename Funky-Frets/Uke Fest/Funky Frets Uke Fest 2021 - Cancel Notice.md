@@ -1,0 +1,6 @@
+## Funky Frets Uke Fest 2021 - Cancel Notice
+
+It is with a heavy heart that we are forced to postpone the 2021 Funky Frets Uke Fest due to the on-going safety concerns in regards to the pandemic. After much deliberation we just could not find a perfect solution to hold this event in a way that guarantees the safety and well being of everyone attending. In the best interest of our attendees and performers we feel that postponing until 2022 is the safest option for everyone. 
+If you have purchased a 2021 festival ticket you may use it in 2022 (most advised, since this will secure you a lower rate) or you can request a refund by September 30th, 2021. Please reach out to funkyfrets@gmail.com or call 484-415-9677 with any questions.
+
+The Funky Frets Crew (Curt, Bern, Kelly, TJ & Ali) hope to see you all for an in person festival October 7, 8 & 9, 2022. It will also be the 10th Anniversary of the Funky Frets Music Store! We appreciate your understanding and hope everyone has a safe and healthy year.

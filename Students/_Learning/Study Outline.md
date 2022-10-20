@@ -1,0 +1,34 @@
+# Outline
+
+- **Notes of the Fingerboard**
+- **Right Hand-Left Hand Drills**
+	- **Right-Hand**
+		- **Fingerpicking**
+			- **Classical Style** (pima)
+			- **Alternating Thumb** Style (thumk, index, middle, "tim")
+- **Priniciples of Music**
+	- **Basics**
+		- **Melody**
+		- **Rhythm**
+			- **Modular Phonetic Rhythmn**
+- **Chords**
+	- **Open Position**
+	- **Movable Forms**
+	- **4-part "Jazz" Chords, The Big Six**
+		- **Level I**
+		- **Level II**
+		- **Level III**
+		- **Alterations**
+	- **Beyond Chords Built in Thirds**
+	- **Arpeggios**
+	- **Harmonized Chord Scales**
+- **Scales**
+	- **Intervals**
+	- **Sequences**
+- **Reading**
+	- **Primer**
+		- **Open Position**
+	- **Position**
+		- **Keys**
+- **Meldoy &amp; Chords**
+- 

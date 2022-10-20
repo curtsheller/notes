@@ -1,0 +1,1 @@
+- **1915** - George E. K. Awai and his Royal Hawaiian Quartet introduced the ukulele to the mainland at a concert in San Francisco.

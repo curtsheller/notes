@@ -1,0 +1,5 @@
+- Fingerstyle
+- Melody & Chord
+- Solo
+- Reharminzation
+- 

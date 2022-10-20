@@ -1,0 +1,62 @@
+- **Aloha**: caring, compassion for others, love, affection
+- **Ha\`aha\`a**: humility, humbleness, modesty
+- **Ho`omau**: preserve, perpetuate, continue
+- **`Ike Pono**: to know, to feel, to understand
+- **Kokua**: help, assist, comfort, support
+- **Kuleana**: privilege, responsibility, title, job
+- **Kupa`a**: stand firm, steadfast
+- **Laulima**: many hands working together
+- **Lokahi**: unity, agreement, accord
+- **Mahalo**: thank you
+- **Malama**: caring, nurturing others, to protect
+- **`Ohana**: family
+- **Pono**: right, good, moral, fair, just
+ 
+## Na Waiwai (Hawaiian Values)
+
+- **AHONUI** – Patience, expressed with tenderness. It is enduring patience that is demonstrated even in times of great stress.
+- **AKAHAI** – Unassuming, unpretentious, lack of arrogance, pleasant, polite, gentle and modest.
+- **ALOHA** – Hello, Farewell, greeting, love. A way of life, an attitude, a spirit, expressing one’s happiness and joy of life.
+- **HA’AHA’A** – Humility, to be humble, the concept of humility, a core value of the Hawaiian people. To be ha’aha’a is highly praised and respected.
+- **HO’OMA’EMA’E** – Living with respect and honoring one’s person and body inspires others by example. Pure, clean and to cleanse.
+- **KOKUA** – To help, aid, assist. There are times when one needs kokua. Providing help for those in need strengthens relationships; if one receives kokua they are more likely to give kokua.
+- **KULEANA** – Right, privilege, concern, responsibility. Kuleana encompasses that for which one has ultimate responsibility.
+- **LAULIMA** – Cooperation, literally: many hands. Laulima is an essential part of island life in that it develops, strengthens, and supports community. Working together ensures the success of the group.
+- **LOKAHI** – Unity, harmony. Lokahi brings a balance to all facets of relationships and daily living.
+- **MAIKA’I** – Good, wellness. Maika’i should be practiced in praising individuals for a job well done. This will boost morale and create a healthy work environment.
+- **‘IKE** – Knowledge, awareness and understanding. By fulfilling one’s responsibilities and providing the highest level of service, one demonstrates ‘ike.
+- **MALAMA** – To care for, protect, nurture. To malama means to focus on the needs and well-being of both the individual and the whole. Malama ‘aina, care for the land, Malama kai, care for the sea, are basic Hawaiian values that are being introduced to the Western world.
+- **‘OHANA** – Family. ‘Ohana is a common foundation or structure of humanity. In the Hawaiian culture, one turns to ‘ohana for unconditional encouragement, support and understanding.
+- **‘OLU’OLU** – Agreeable. One who expresses oneself with pleasantness, graciousness, and kindness is recognized as olu’olu.
+- **PA’AHANA** – Industrious, busy, hard-working. To be pa’ahana is always encouraged in any aspect of life. Being pa’ahana will also create a sense of accomplishment and fulfillment in the long term.
+- **PONO** – Goodness, correct, proper, righteous. Pono is a way of life. To be pono is to consider all persons, relationships and present situations when making decisions.
+
+## Na Waiwai (28 Hawaiian Values)
+- **Akahai** – Unassuming, non-arrogant, polite, pleasant, gentle and modest.
+- **Alaka’i** – A strong leader, lead by a good example, you shall guide others when you have gained their trust and respect.
+- **Aloha** – Unconditional love, outpouring and receiving of the spirit, a way of life, an attitude of expressing one’s happiness, joy and gratitude for life. Also in today’s island life, a greeting or farewell filled with love.
+- **Ahonui** – Enduring patience that is exhibited even during times of great stress, and always with tenderness.
+- **Ha’aha’a** – Humility expresses in being humble, modest and open in your thoughts.  To be ha’aha’a is highly praised and respected.
+- **Ho’ohana** – To work with heartfelt purpose.
+- **Ho’ohanohano** – To honor the virtue and dignity of others and conduct yourself with attention to respectfulness.
+- **Ho’okipa** – Hospitality of complete giving that welcomes guests and strangers with Aloha.
+- **Ho’omau** – Perseverance to continue to persist and never give up.
+- **Ho’o Ma’ema’e** – Pure, clean and to cleanse. Respect and honor of one’s body is an inspiration to others by example.
+- **‘Ike loa** – The importance of seeking knowledge and educating oneself. Never stop learning of the world around you and your own self growth.
+- **‘Imi Ola** – Mission, purpose and vision to seek life in its highest form.
+- **Ka lā hiki ola** – “The dawning of a new day.” Each day is brand new and breeds optimism, hope and promise. Encouragement to move forward and choose to take advantage of a new beginning.
+- **Kākou** – All of us.  Communication inspired by the knowing that we are all in this together.
+- **Kokua** – To help, assist those who need kokua.  Giving help strengthens relationships. If one receives kokua, they are more likely to give kokua.
+- **Kuleana** – A personal sense of responsibility and accountability. It is a life code for holding yourself accountable with the belief that if you seek personal improvement as a goal, you will be self-motivated to pursue it throughout your life. There is always room to grow.
+- **Kūlia i ka nu’u** – Strive for the highest. Pursue personal excellence in all you do.
+- **Laulima** – Literally, many hands.  Essential part of island life in that it develops, strengthens and supports community. Working together in cooperation.
+- **Lōkahi** – Balance, unity and harmony to all facets of relationships and daily living. The idea that our mind, body, and the universe are all connected with each other promotes group consciousness and the belief that harmony within a group or population will secure survival.
+- **Mahalo** – Thank you as a way of living. Live in thankfulness and gratitude for the richness that makes life so precious.
+- **Maika’i** – Good, wellness. Practiced to boost morale and create a healthy work and home environment. Praise for a job well done.
+- **Mālama** – Stewardship.  To care for, protect, nurture, preserve, watch over.  Focus on the needs and well being of both the individual and the whole. Mālama i ka ‘aina, care for the land, Mālama i ke kai, care for the sea, mālama i na keiki, care for the children, are basic Hawaiian values that are being introduced to the Western world.
+- **Nānā i ke kumu** – Look to the sources of teachers, spirit and your sense of place to find your truth.
+- **‘Ohana** – Family. ‘Ohana is a common foundation or structure of humanity. In the Hawaiian culture, one turns to ‘ohana for unconditional encouragement, support and understanding. A human circle of complete Aloha.
+- **‘Olu’olu** – Agreeable and expressing oneself with graciousness and kindness.
+- **Pa’ahana** – Busy and hard working. Always encouraged in any aspect of life and eager to create a sense of accomplishment and fulfillment dedicated to the future.
+- **Pa’a ka waha** – Observe and then act.  The more you listen and observe the environment around you the more you learn and will be able to contribute when it is time for you to speak.
+- **Pono** – Integrity of rightness and balance. A way of life in that all people, relationships and present situations are considered when making decisions.

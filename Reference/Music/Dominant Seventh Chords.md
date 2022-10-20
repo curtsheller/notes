@@ -1,0 +1,2 @@
+# Dominant Seventh Chords 
+ **NOTE**: A *Seventh* chord is very ~~ofter~~ often referred to as a  [Dominant Seventh](https://learningukulele.com/lessons/code/UL42-7-dom)  . This is not always accurate, as ~Dominant~ is a chord function and not actually part of a chord name, which is a capital letter and chord type information not function information. We don't call a seventh chord ~~function~~ functioning as a I chord in a blues a *Tonic Seventh* or the IV chord a *Sub-Dominant Seventh* chord, etc... ( this on the Chord a Day series of lessons). #todoSeventh

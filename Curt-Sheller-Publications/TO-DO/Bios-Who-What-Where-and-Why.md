@@ -1,0 +1,21 @@
+## Who, What and…
+**Learning Ukulele with Curt** (www.LearningUkulele.com.) is Curt Sheller and is a truly massive learning and Ukulele resources site. Rich in content and has been on the web in one form or another *since* **1992**. Site visitors have said you can spend days and days on it and not see everything. I even forget how much is available. And I spend days and days on it - *every day*.
+
+## Why?
+**Why not?**. Sharing, Helping, Coaching, Mentoring, and Taking the Mystic Out of Music and Learning an Instrument. I might be able to help - I **WILL** be able to help. I started guitar in 1963 and have been a serious student of music, jazz, guitar singe 1978 and the Ukulele since 2003. I DO have a lot of experience and have guided hundreds of private students and thousands of other at festivals and virtually on-line with www.LearningUkulele.com.
+
+### Super Short Bio / Recap
+
+Started guitar in 1963 at 9 yrs old, Serious study of music and Jazz guitar since 1978. Applying all of this to Ukulele since 2003. Graphic Artist/Designer by trade and on Macs and DTP time 1987,. On the web since 1992. Web site hand-coded since then and self-taught programmer and web-developer since then. Owner, Teacher, Repair Tech and Partner in our family music store; Funky Frets in Boyertown , PA.
+
+## Structure
+It will be **Free Form**, **Loose Structure**, **Audience Driven**, and lot of just what I’m doing at the computer, instrument, music store all that time.
+
+## Bio
+I began playing guitar at age nine. Since 1978, I have been a serious student of jazz guitar.  I had the great privilege and honor of studying with Chuck Anderson for more than 30 years.  He’s one of the most knowledge musicians I’ve known.  With his guidance, I focused on jazz and contemporary guitar. With him, no subject was off limits. Topics including arranging, private teaching, 20th century harmony, performing and working with other musicians, and anything that came up we covered in the lessons.  I started with a half-hour lesson and quickly went to a one-hour lesson a week to ultimately two-hours a week of private study with Chuck. Yes!!!, he is that good.
+
+
+### Ukulele
+In the summer of 2003, I fell in love with the ukulele and all its possibilities. The ukulele has been the center of my energy ever since then.  My journey exploring the ukulele began by accident on a CampFire USA trip to South Dakota planned by my wife, Bernadette.  I’d searched the Internet for a small travel guitar to bring with me, and rediscovered the ukulele instead. I began pursuing the potential of the ukulele. Researching the field, I realized that there was very little material on the ukulele appropriate for intermediate and advanced players.  At that time, I had substantial understanding of music and guitar that I could apply to the ukulele.  So, I methodically began to develop detailed lessons and write books for ukulele players, drawing on my knowledge and experience of playing jazz and contemporary guitar and studying with Chuck Anderson.  For the last several years, I brought a ukulele instead of a guitar to my lessons with Chuck.  Chuck also helped me by reviewing and editing my books and online lesson material. 
+
+I have developed an international reputation as an ukulele expert, having written 30 some book for and more than 600, approaching 700 lessons for the ukulele and more than 10 books for guitar.  Visit my website at  [www.LearningUkulele.com](http://www.learningukulele.com/)  to see my work as an author and educator.  I conduct ukulele workshops and along with my wife Bernadette and daughter Kelly run an annual ukulele festival entitled Funky Frets Uke Fest to great acclaim. I remain a professional musician.  I recently released a jazz ukulele CD, “How About More Uke?”, exploring the ukulele with traditional and contemporary jazz repertoire and some my original music, all of which showcase a nontraditional ukulele performance.  Chuck Anderson was a valuable asset leading up to the recording of our CD with his help whipping the charts into shape and allowing us to record his great song Rain Shine.  I also continue to perform live concerts. With my wife Bernadette and daughter Kelly we own the Funky Frets music store in Boyertown, PA, where we sell ukuleles and I conduct music lessons. I also teach via Skype.
