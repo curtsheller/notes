@@ -9,7 +9,7 @@
 
 ## Installing the LAMP Stack
 
-First update system to lastest goodies and fixes.
+First update system to latest goodies and fixes.
 
 ```
 $ sudo apt update

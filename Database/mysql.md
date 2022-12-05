@@ -1,44 +1,64 @@
 # MySQL
 
-Change the export file name for all references
-    - forge-ALL-19-SEPT-2022-1500.sql
-    - lu_2022_09_19_1500
+Change the *export file name* and .*env database name* for all references
+
+- [ ] forge-ALL-26-NOV-2022-1020.sql
+- [ ] lu_2022_11_26_1020
 
 ## Production
-        lussh
-        lu
-        mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-19-SEPT-2022-1500.sql
+
+*Login*, *cd* to learningukulele.com and *dump* db.
+
+```bash
+lussh
+lu
+mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-26-NOV-2022-1020.sql
+```
 
 ## Local
-   ### Copy to local computer
+
+### Copy to local computer
+
    Switch to local computer
-    - scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-19-SEPT-2022-1500.sql ~/Exports/forge
+
+```
+scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-26-NOV-2022-1020.sql ~/Exports/forge
+```
 
     ### Create New database
-    - mysql -u root -pBenny7JB@12345
-    - mysql> CREATE DATABASE lu_2022_09_19_1500;
+
+    - mysql -u root -pBenny7JB
+    - mysql> CREATE DATABASE lu_2022_11_26_1020;
     - mysql> SHOW DATABASES;
 
     ### Exit MySql
     ```
-    mysgl> exit`
+    mysgl> exit
     ```
     ### Import tables/data to new database
 
-    - mysql -u root -pBenny7JB@12345 lu_2022_09_19_1500 < ~/Exports/forge/forge-ALL-19-SEPT-2022-1500.sql
+    - mysql -u root -pBenny7JB lu_2022_11_26_1020 < ~/Exports/forge/forge-ALL-26-NOV-2022-1020.sql
 
     ### Update .env file with new local db name
 
-    - Run `sr` for all tables (*except assignments*) or `srl` script to have Meilisearch create search indexes for lessons only.
+    #### cd in to learningukulele.com local site
+
+    - Run `lu-refresh` for all tables (*except assignments*) or `srl` script to have Meilisearch create search indexes for lessons only.
     - Clear caches.
 
 ## Cleanup Production
-    lussh
-    lu
-    rm [dumped-file]
+
+```bash
+lussh
+lu
+rm [dumped-file]
+```
 
 ## Optional
-    - Clean up local databases, and export files.
+
+Clean up local databases, and export files.
+
+# Resources & Links
 
 ## Backup and Restore
 
@@ -50,27 +70,29 @@ Change the export file name for all references
 
 1. SSH into the learningukulele.com forge server `LUSSH` and run the following command:
 
+```bash
+mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-26-NOV-2022-1020.sql
 ```
-    $ mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-19-SEPT-2022-1500.sql
-```
+
 This creates a database dump in the current directory.
 
 ### Copy to local
 
 This is done from a `local` computer.
 
-```
-    # 19-AUG-2022 Worked from local
-    $ scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-19-SEPT-2022-1500.sql ~/Exports/forge
+```bash
+# 19-AUG-2022 Worked from local
+
+scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-26-NOV-2022-1020.sql ~/Exports/forge
 ```
 
 ## Importing to Local
 
 Log in to `mysql` and create database.
 
-```
-    $ mysql -u root -pBenny7JB@12345
-    $ mysql> CREATE DATABASE lu_2022_09_19_1500;
+```bash
+mysql -u root -pBenny7JB@12345
+mysql> CREATE DATABASE lu_2022_11_26_1020;
 ```
 
 - `SHOW DATABASES;` to verify that the database was created/
@@ -79,19 +101,18 @@ Log in to `mysql` and create database.
 
 ### Import database dumped from forge:
 
+```bash
+mysql -u root -pBenny7JB@12345 lu_2022_11_26_1020 < ~/Exports/forge/forge-ALL-26-NOV-2022-1020.sql
 ```
-    $ mysql -u root -pBenny7JB@12345 lu_2022_09_19_1500 < ~/Exports/forge/forge-ALL-19-SEPT-2022-1500.sql
-```
-
 
 ## After Importing
+
 - Update the `.env` files for the site using the database.
-- Run <strong>scout import script</strong>, 'sr' for ALL (except assignments) or 'srl' for lessons only to update the MeiliSearch indexes.
+- Run <strong>scout import script</strong>, 'lu-refresh' to update ALL the MeiliSearch indexes.
 
 # Resources & Links
 
 - [How to Backup MySQL Database (3 Simple Methods)](https://serverguy.com/servers/how-to-backup-mysql-database/)
 - [MySQL Tutorial](https://www.mysqltutorial.org/mysql-show-databases/)
 - [Mysqldump with Modern MySQL](https://serversforhackers.com/c/mysqldump-with-modern-mysql)
--   TecAdmin.net: [**MySQL on Ubuntu 20.04** -->](https://tecadmin.net/install-mysql-ubuntu-20-04/)
-
+- TecAdmin.net: [**MySQL on Ubuntu 20.04** -->](https://tecadmin.net/install-mysql-ubuntu-20-04/)

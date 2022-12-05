@@ -15,7 +15,7 @@ The Ultimate goal is, given two of these three: the note name, the string number
 
 ## Other Drills
 
-- Random shapoes and name the notes.
+- Random shapes and name the notes.
 - Find ever \_\_\_\_\_?, Pick any natural, sharp or flat note and find all of them.
 - Close your eyes and out your finger on the ukulele, open your eyes and name the note.
 

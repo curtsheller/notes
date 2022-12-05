@@ -1,1 +1,3 @@
-- [Staples: **HP V28 28" 4K LED Monitor*, Black (8WH57AA#ABA)](https://www.staples.com/hp-v28-8wh57aa-aba-28-led-monitor-black/product_24459275)
+# To Buy
+
+- [ ] 
