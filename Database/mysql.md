@@ -2,8 +2,8 @@
 
 Change the *export file name* and .*env database name* for all references
 
-- [ ] forge-ALL-26-NOV-2022-1020.sql
-- [ ] lu_2022_11_26_1020
+- [ ] forge-ALL-05-DEC-2022-1400.sql
+- [ ] lu_2022_12_05_1400
 
 ## Production
 
@@ -12,7 +12,7 @@ Change the *export file name* and .*env database name* for all references
 ```bash
 lussh
 lu
-mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-26-NOV-2022-1020.sql
+mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-05-DEC-2022-1400.sql
 ```
 
 ## Local
@@ -22,13 +22,13 @@ mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-26-NOV-2022-1020.sql
    Switch to local computer
 
 ```
-scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-26-NOV-2022-1020.sql ~/Exports/forge
+scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-05-DEC-2022-1400.sql ~/Exports/forge
 ```
 
     ### Create New database
 
     - mysql -u root -pBenny7JB
-    - mysql> CREATE DATABASE lu_2022_11_26_1020;
+    - mysql> CREATE DATABASE lu_2022_12_05_1400;
     - mysql> SHOW DATABASES;
 
     ### Exit MySql
@@ -37,7 +37,7 @@ scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-26-NOV-2022-1
     ```
     ### Import tables/data to new database
 
-    - mysql -u root -pBenny7JB lu_2022_11_26_1020 < ~/Exports/forge/forge-ALL-26-NOV-2022-1020.sql
+    - mysql -u root -pBenny7JB lu_2022_12_05_1400 < ~/Exports/forge/forge-ALL-05-DEC-2022-1400.sql
 
     ### Update .env file with new local db name
 
@@ -71,7 +71,7 @@ Clean up local databases, and export files.
 1. SSH into the learningukulele.com forge server `LUSSH` and run the following command:
 
 ```bash
-mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-26-NOV-2022-1020.sql
+mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-05-DEC-2022-1400.sql
 ```
 
 This creates a database dump in the current directory.
@@ -83,7 +83,7 @@ This is done from a `local` computer.
 ```bash
 # 19-AUG-2022 Worked from local
 
-scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-26-NOV-2022-1020.sql ~/Exports/forge
+scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-05-DEC-2022-1400.sql ~/Exports/forge
 ```
 
 ## Importing to Local
@@ -92,7 +92,7 @@ Log in to `mysql` and create database.
 
 ```bash
 mysql -u root -pBenny7JB@12345
-mysql> CREATE DATABASE lu_2022_11_26_1020;
+mysql> CREATE DATABASE lu_2022_12_05_1400;
 ```
 
 - `SHOW DATABASES;` to verify that the database was created/
@@ -102,7 +102,7 @@ mysql> CREATE DATABASE lu_2022_11_26_1020;
 ### Import database dumped from forge:
 
 ```bash
-mysql -u root -pBenny7JB@12345 lu_2022_11_26_1020 < ~/Exports/forge/forge-ALL-26-NOV-2022-1020.sql
+mysql -u root -pBenny7JB@12345 lu_2022_12_05_1400 < ~/Exports/forge/forge-ALL-05-DEC-2022-1400.sql
 ```
 
 ## After Importing
