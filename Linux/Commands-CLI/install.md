@@ -1,6 +1,5 @@
 # Commands for CLI
 
-
 ## jq - JSON
 
 ```sh
