@@ -5,6 +5,7 @@
 - [**Oh My Zsh** &#128279;](https://github.com/ohmyzsh/ohmyzsh) &bull; open source, community-driven framework for managing your zsh configuration
 
 ### Install
+
 ```sh
 sudo apt install zsh
 sudo apt install zsh git fonts-font-awesome

@@ -2,68 +2,78 @@
 
 ## Install Updates, Upgrades
 
-A lot of programd/apps can be install from the Pop!_Shop when needed.
+A lot of programs/apps can be install from the Pop!_Shop when needed.
 
 Command Line (CLI) only packages are installed using, the CLI. Web Development, PHP, Meilisearch, SQLites, MySQL, Redis, etc&helipp; can be installed using `apt`.
 
 ## Updates and Upgrade
-```
-sudo apt update
-sudo apt upgrade
+```bash
+    sudo apt update
+    sudo apt upgrade -y
 ```
 
-```
-sudo apt dist-upgrade
+```bash
+    sudo apt dist-upgrade
 ```
 ### Clean Up
-```
-sudo apt autoremove
-sudo apt autoclean
+
+```bash
+    sudo apt autoremove
+    sudo apt autoclean
 ```
 ### Firmware
+```bash
+    sudo fwupdmgr get-devices
+    sudo fwupdmgr get-updates
+    sudo fwupdmgr update
 ```
-sudo fwupdmgr get-devices
-sudo fwupdmgr get-updates
-sudo fwupdmgr update
-```
+
 ### Flatpak
+
+```bash
+    flatpak update
 ```
-flatpak update
-```
+
 ### Recovery Partition
-```
-sudo pop-upgrade recovery upgrade from-release # this updates the recovery partition
+
+```bash
+    sudo pop-upgrade recovery upgrade from-release # this updates the recovery partition
 ```
 
 ### Reboot
-```
-sudo reboot now
+
+```bash
+    sudo reboot now
 ```
 
 ## Set hostname
-```
-hostnamectl set-hostname precision
+
+```bash
+    hostnamectl set-hostname precision
 ```
 
 ## Keyboard Shortcuts
+
 - IChange “Settings” to “Super+I”
 - Add shortcut to open “gnome-system-monitor” with “Super+Backspace”
 
 # Install Apps
+
 A lot of apps can be installed from the Pop!_Shop. However the command-line is faster and the installs can be scripted and automated.
-```
-sudo apt install neofetch
+
+```bash
+    sudo apt install neofetch
 ```
 
 # Security Steps with Yubikey
-```
-sudo apt install -y yubikey-manager yubikey-personalization # some common packages
+```bash
+    sudo apt install -y yubikey-manager yubikey-personalization # some common packages
 ```
 
 ## Insert the yubikey
 
-```
-ykman info # your key should be recognized
+```bash
+    ykman info # your key should be recognized
 ```
 
 See for [mutschler.dev &dArr;](https://mutschler.dev/linux/pop-os-post-install/#set-hostname) mote commands and information.
@@ -72,8 +82,8 @@ See for [mutschler.dev &dArr;](https://mutschler.dev/linux/pop-os-post-install/#
 ## Apps
 ## Font Manager
 
-```
-flatpak install flathub org.gnome.FontManager
+```bash
+    flatpak install flathub org.gnome.FontManager
 ```
 
 ## Markdown Editors
@@ -81,14 +91,14 @@ flatpak install flathub org.gnome.FontManager
 ### Aposthrope
 
 - [Apostrophe](https://gitlab.gnome.org/World/apostrophe)
-```
-flatpak install flathub org.gnome.gitlab.somas.Apostrophe
+```bash
+    flatpak install flathub org.gnome.gitlab.somas.Apostrophe
 ```
 
 ### MarkText
 
-```
-flatpak install flathub com.github.marktext.marktext
+```bash
+    flatpak install flathub com.github.marktext.marktext
 ```
 
 # Development
@@ -98,14 +108,14 @@ flatpak install flathub com.github.marktext.marktext
 
 Default shell on mac OS.
 
-```
-sudo apt install zsh
+```bash
+    sudo apt install zsh
 ```
 ### Oh-My-ZSH
 [**Oh-My-ZSH** &#128279;](https://ohmyz.sh/) is an excellent tool for managing your ZSH configuration. Install it using the following command:
 
-```
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```bash
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 
@@ -115,38 +125,36 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 - [**Nerd Font**  &#128279;](https://www.nerdfonts.com/)
 
 ## git Configuration
-```
-git config --global user.name "Curt Sheller"
-git config --global user.email curt@curtsheller.com
+```bash
+    git config --global user.name "Curt Sheller"
+    git config --global user.email curt@curtsheller.com
 ```
 
 ## Coding Editors
 ### Sublime Text & Sublime Merge
 
 #### Install Text
-```
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | \
-gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg
-# Stable
-echo "deb https://download.sublimetext.com/ apt/stable/" | \
-sudo tee /etc/apt/sources.list.d/sublime-text.list
+```bash
+    wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | \
+    gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg
+    # Stable
+    echo "deb https://download.sublimetext.com/ apt/stable/" | \
+    sudo tee /etc/apt/sources.list.d/sublime-text.list
 
-sudo apt update
-sudo apt install sublime-text
-
+    sudo apt update
+    sudo apt install sublime-text
 ```
 #### Install Merge
-```
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | \
-sudo apt-key add -
-sudo apt-get install apt-transport-http
-# Stable
-echo "deb https://download.sublimetext.com/ apt/stable/" | \
-sudo tee /etc/apt/sources.list.d/sublime-text.list
+```bash
+    wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | \
+    sudo apt-key add -
+    sudo apt-get install apt-transport-http
+    # Stable
+    echo "deb https://download.sublimetext.com/ apt/stable/" | \
+    sudo tee /etc/apt/sources.list.d/sublime-text.list
 
-sudo apt apdate
-sudo apt install sublime-merge
-
+    sudo apt apdate
+    sudo apt install sublime-merge
 ```
 
 License in in Bitwarden.
@@ -159,9 +167,9 @@ License in in Bitwarden.
 - [VSCodium &#128279;](https://github.com/VSCodium/vscodium) &bull; Build script.
 
 ### NodeJS
-```
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt install -y nodejs npm
+```bash
+    curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+    sudo apt install -y nodejs npm
 ```
 
 Run `node --version` to see the version.
@@ -174,24 +182,24 @@ Run `node --version` to see the version.
 ### Postman
 **Postman** can be installed in one of three ways. The easiest is to open the **Pop!_Shop** and install Postman using the GUI.
 
-```
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-sudo flatpak install flathub com.getpostman.Postman
+```bash
+    sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    sudo flatpak install flathub com.getpostman.Postman
 ```
 
 ## Other Apps
 Skype, ZOOM, VLC, Multimedia Codecs, OBS
 
-```
-flatpak install -y skype
-flatpak install -y zoom
-sudo apt install -y vlc
-sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pkg
-sudo apt install -y obs-studio
-
+```bash
+    flatpak install -y skype
+    flatpak install -y zoom
+    sudo apt install -y vlc
+    sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pkg
+    sudo apt install -y obs-studio
 ```
 
 ## Pop!_os Setup Guides
+
 - [flamedfury.com &#128279;
 ;](https://flamedfury.com/guides/pop-os-setup/)
 - [mutschler.dev &#128279;](https://mutschler.dev/linux/pop-os-post-install/#set-hostname)
