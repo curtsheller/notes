@@ -17,7 +17,7 @@ $ sudo apt update
 
 ### Install PHP
 
-Install the lastest version of PHP 7.4.
+Install the latest version of PHP 7.4.
 
 ```
 $ sudo apt install zip unzip software-properties-common
