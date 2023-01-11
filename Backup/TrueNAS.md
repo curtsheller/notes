@@ -41,3 +41,6 @@ http://10.1.10.251:8384/syncthing/
 ```
 /mnt/(your folders name)
 ```
+
+- [Configuring The Free Open Source Self Hosted File Synchronization Tool SyncThing in a FreeNAS Jail (Larwence Systems) &rArr;](https://youtu.be/xkER4b5JX8g_)
+	Jails have their own use name: 983

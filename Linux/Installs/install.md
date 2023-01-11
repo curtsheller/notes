@@ -21,6 +21,7 @@ Command Line (CLI) only packages are installed using, the CLI. Web Development, 
     sudo apt autoremove
     sudo apt autoclean
 ```
+
 ### Firmware
 ```bash
     sudo fwupdmgr get-devices
@@ -77,7 +78,6 @@ A lot of apps can be installed from the Pop!_Shop. However the command-line is f
 ```
 
 See for [mutschler.dev &dArr;](https://mutschler.dev/linux/pop-os-post-install/#set-hostname) mote commands and information.
-
 
 ## Apps
 ## Font Manager
@@ -157,7 +157,7 @@ Default shell on mac OS.
     sudo apt install sublime-merge
 ```
 
-License in in Bitwarden.
+License is in Bitwarden.
 
 #### Resources &amp; Links
 - [Sublime Text &#128279;](https://www.sublimetext.com/) &bull; Text editor
@@ -187,6 +187,12 @@ Run `node --version` to see the version.
     sudo flatpak install flathub com.getpostman.Postman
 ```
 
+## CLI Commands
+
+```bash
+    sudo apt install bat            # For nb: https://github.com/sharkdp/bat
+    sudo apt-get install ripgrep    # For nb:  https://github.com/BurntSushi/ripgrep
+```
 ## Other Apps
 Skype, ZOOM, VLC, Multimedia Codecs, OBS
 

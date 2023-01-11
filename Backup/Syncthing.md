@@ -1,5 +1,8 @@
-# Syncthing &lrarr;
+# Syncthing
 
+#Backup #Syncing
+
+## Links & Resources
 - [Syncthing &#128279;](https://syncthing.net/)
   - [Usage &#128279;](https://docs.syncthing.net/users/index.html)
   - [Configuration &#128279;](https://docs.syncthing.net/users/config.html)
@@ -8,6 +11,8 @@
 ## TO DO
 
 - [x] Keep loosing connection to TrueNAS server.
+
+## Installation
 
 ```
 sudo apt update
@@ -55,21 +60,6 @@ On macOS create symlink **CSP** to the CSP drive and **FunkyFrets** drive in '$H
 
 - /media/curtsheller/**CSP**
 - /media/curtsheller/**CSP**/<**dir**>
-  - /media/curtsheller/CSP/**Clients**
-  - - /media/curtsheller/**CSP**
-  - /media/curtsheller/CSP/**Documents**
-  - /media/curtsheller/CSP/**dev**
-  - /media/curtsheller/CSP/**Fonts**
-  - /media/curtsheller/CSP/**iMovie-Projects**
-  - /media/curtsheller/CSP/**Lesson-Handouts**
-  - /media/curtsheller/CSP/**OBS**
-  - /media/curtsheller/CSP/**Personal**
-  - /media/curtsheller/CSP/**Reference**
-  - /media/curtsheller/CSP/**Songs**
-  - /media/curtsheller/CSP/**Sounds**
-  - /media/curtsheller/CSP/**Students**
-  - /media/curtsheller/CSP/**TO-FILE**
-  - /media/curtsheller/CSP/**Videos**
 
 ### Curt Sheller Publications
 
@@ -85,30 +75,14 @@ On macOS create symlink **CSP** to the CSP drive and **FunkyFrets** drive in '$H
   
   - /media/curtsheller/FunkyFrets/<**DIR**>
   
-  - /media/curtsheller/FunkyFrets/**Funky-Frets-Music-Store**
-  
-  - /media/curtsheller/FunkyFrets/**Funky-Frets-TV**
-  
-  - /media/curtsheller/FunkyFrets/**Funky-Frets-Uke-Fest**
-  
-  - /media/curtsheller/FunkyFrets/**Funky-Frets-Ukulele-Academy**
-  
-  - /media/curtsheller/FunkyFrets/**Performers-Artists**
-  
-  - /media/curtsheller/FunkyFrets/**_Archived**
-  
-  - /media/curtsheller/FunkyFrets/**Art**
-  
-  - /media/curtsheller/FunkyFrets/**Kelly**
-    
-    - /media/curtsheller/FunkyFrets/**Photos**
-  
-  - /media/curtsheller/FunkyFrets/**Vendors**
-    
-    For transferring files with Kelly
+
+### For transferring files with Kelly
   
   - /media/curtsheller/FunkyFrets/**Transfer-Kelly**
 
-## Links &amp; Resources
+## Additional Links &amp; Resources
 
 - [Debian/Ubuntu Packages &#128279;](https://apt.syncthing.net/) &bull; Add PGP keys and APT sources then.
+
+----
+****Curt Sheller Publications** • Pottstown, PA 19464 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [updated: **2023-01-11**]

@@ -25,3 +25,7 @@
 
 ## Darwin
 - All observations must be for or against some view if it is to be of any service &mdash; Darwin (Dariwn's Dictum)
+
+
+## ???
+“Neither a rich man or a poor man gets to enjoy his money. One is too busy trying to hold on to it, and the other is too busy trying to get it.”
