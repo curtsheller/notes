@@ -1,12 +1,22 @@
-# Syncthing
+# TrueNAS
 
-- [**Syncthing**](https://syncthing.net)
+TrueNAS is the world’s most popular Open Source storage operating system and is the most efficient solution for managing and sharing data over a network. It is the simplest way to create a safe, secure, centralized, and easily accessible place for your data. TrueNAS Open Storage provides unified storage for file, block, object, and application data.
 
-**TrueNAS mount point:** `/mnt/Sync`
+- [**TrueNAS** &rarr;](https://www.truenas.com/)
+- [**TrueNAS Mini** &rarr;](https://www.truenas.com/truenas-mini/) &bull; This is in the closet and used for CSP mac and linux computers.
+- [**TrueNAS CORE and Enterprise** Doumentation Hub &rarr;](https://www.truenas.com/docs/core/)
 
-http://10.1.10.251:8384/syncthing/
+## Saving Config
+
+[**TrueNAS Dashboard** &rarr;](http://10.1.10.251/ui/dashboard)
+
+
+## Tasks
+- [ ] **Rsync Tasts** &ndash; Sync Thelio drives:CSP, FunkyFrets for bachup.
 
 ## Syncing
+
+**TrueNAS mount point:** `/mnt/Sync`
 
 1. Create folder from local computer in Sync GUI.
 2. Add Remote Device, the TrueNAS server if not already there.
@@ -43,4 +53,4 @@ http://10.1.10.251:8384/syncthing/
 ```
 
 - [Configuring The Free Open Source Self Hosted File Synchronization Tool SyncThing in a FreeNAS Jail (Larwence Systems) &rArr;](https://youtu.be/xkER4b5JX8g_)
-	Jails have their own use name: 983
+	Jails have their own user name: 983
