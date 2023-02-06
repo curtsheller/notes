@@ -16,7 +16,7 @@ The montly and annual supscriptions/memberships for the tools and services for t
 | **FastMail**          |Mail       | B |$100.70| 8999 |2023-11-23|fastmail.com, funkyfrets.com |
 | **FastMail**          |Mail       | B |$100.70| 7531 |2024-06-06|fastmail.com, curtsheller.com, also notes and calendars |
 | **FastMail**          |Mail       | A |$53    | 9871 |2023-09-30|fastmail.com, learningukulele.com |
-| **Fathom**            |Analytics  | A |$14    | 9871 |24th      |2023 Start using again  |
+| **Fathom**            |Analytics  | A |$14    | 9871 |24th      |2023 CANCELLED  |
 | **Laravel forge**     |ADMIN      | A |$199   | 8999 |2023-04-21|forge.laravel.com, All Servers Management|
 | **Laravel Spark**     |Billing    | U |$104.94| 9871 |w/updates |Last: 2022-03-15, spark.laravel.com, LU Membership Billing with Stripe   |
 | **Laravel Nova**      |Server     | U |$99    | ?    |w/updates |Last: 2022-04-11, nova.laravel.com, Site Models Admin          |
