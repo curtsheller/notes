@@ -4,7 +4,7 @@
 
 **NOTE:** Apache conflict with Valet. Stop Apache and restart Valet.
 
-#### Comamnds
+#### Commands
 
 ```
 sudo service apache2 reload
