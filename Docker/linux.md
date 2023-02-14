@@ -83,3 +83,4 @@ sudo apt install \
 #### Reference & Links
 - [Installing Docker Desktop on Pop_OS! 22.04
 &#128279;](https://www.bgoewert.com/installing-docker-desktop-on-pop_os-22-04/)
+- [Docker for local development &arrar;](https://blog.codito.dev/2023/01/docker-for-local-development/) - (2023-01-23), Developing with Docker
