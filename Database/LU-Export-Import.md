@@ -2,8 +2,8 @@
 
 Change the *export file name* and .*env database name* for all references
 
-- forge-ALL-25-MAR-2023-1540.sql
-- lu_2023_03_25_1540
+- forge-ALL-2023_04_24_1530.sql
+- lu_2023_04_24_1530
 
 ## Production
 
@@ -12,7 +12,7 @@ Change the *export file name* and .*env database name* for all references
 ```sh
 lussh
 lu
-mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-25-MAR-2023-1540.sql
+mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2023_04_24_1530.sql
 ```
 
 ## Local
@@ -20,33 +20,27 @@ mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-25-MAR-2023-1540.sql
    Switch to local computer and copy dump file to local.
 
 ```sh
-scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-25-MAR-2023-1540.sql ~/Exports/forge
+scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2023_04_24_1530.sql ~/Exports/forge
 ```
 
 #### Create New database
 
-Log in to local an MySQL and create and impor to database.
+Log in to local an MySQL and create and import to database.
    - mysql -u root -pBenny7JB
-   - mysql> CREATE DATABASE lu_2023_03_25_1540;
+   - mysql> CREATE DATABASE lu_2023_04_24_1530;
    - mysql> SHOW DATABASES;
+   - mysql> exit
 
 #### Drop Previous Databases (Optional)
-- mysql> DROP DATABASE lu_2023_01_25_1515;
-
-#### Exit MySql
-```
-mysgl> exit
-```
-
-- exit
+- mysql> DROP DATABASE lu_2023_03_08_1015;
 
 ## Import tables/data to new database
 
 ```sh
-mysql -u root -pBenny7JB lu_2023_03_25_1540 < ~/Exports/forge/forge-ALL-25-MAR-2023-1540.sql
+mysql -u root -pBenny7JB lu_2023_04_24_1530 < ~/Exports/forge/forge-ALL-2023_04_24_1530.sql
 ```
 ### Update .env file with new local db name
-- DB_DATABASE=lu_2023_03_25_1540
+- DB_DATABASE=lu_2023_04_24_1530
 
 #### cd in to learningukulele.com local site
 

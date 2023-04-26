@@ -32,7 +32,7 @@ The montly and annual supscriptions/memberships for the tools and services for t
 | **OBD Auto Doctor**   |Apps       | A |$      |PayPal|CANCELLED |Ended: 2020-12-24 |
 | **OhDear**            |Site Status| A |$55    | 0042 |2021-09-11|ohdear.app, on the discounted starter plan. Would be $110+ |
 | **postmark**          |Main       | M |$10    | 9871 |1st       |LearningUKulelec.com transnational emails |
-| **plausible.io**      |Analytics  | A |$90.57 | 9871 |2023-04-19|OSS, Replacing Fathom with plausible.io |
+| **plausible.io**      |Analytics  | A |$96 | PayPal |2024-04-19|OSS, Replacing Fathom with plausible.io |
 | **restream.io**       |Streaming  | A |$190   | 6540 |2021-10-05|PAID by Funky Frets Pays |
 | **StatCounter**       |Analytics  | A |$      | 8999 |          |Replacing with with plausible.io and/or Fathom. **Cancel in March 2021** NO INvoices after 2019-10-15 |
 | **Vultr**             |Hosting    | M |$5     | BAL  |          |vultr.com * CANCELELD |

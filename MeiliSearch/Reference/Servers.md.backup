@@ -6,40 +6,20 @@ By default, Meilisearch's API is unprotected. This means all routes are publicly
 
 The **`/keys`** route allows you to create, manage, and delete API keys. To use these endpoints, you must first set the master key. Once a master key is set, you can access these endpoints by supplying it in the header of the request, or using API keys that have access to the keys.get, keys.create, keys.update, or keys.delete actions.
 
-```shell
+```
 ./meilisearch --master-key="mele1-pono-lani-meilisearch-v1"
 ```
-
 **NOTE:** Using the same master-key for LOCAL development as in PRODUCTION.
 
 ### Once you launch Meilisearch with a **Master Key**, all API endpoints _except the health_ endpoint are automatically protected from unauthorized requests.
 
 ### From that point on, API requests must include the Authorization header to be successful. Read on to learn more
 
-# MeiliSearch Servers
 
-## keys, version
+## MeiliSearch Servers
 
-Anything other than `health` needs authorization.
-
-#### Local Development
-#### http://llocalhost:7700, Meilisearch v1.1
-
-- MeiliSearch Password: mele1-pono-lani-meilisearch-v1
-- Default Search API Key: ccff7d9bc3e96f7bf83715490992a86f84a9ee46455fce56551fc0a1cee0c50a
-- Default Admin API Key: 52daacc90ed3d89ec3d0ad49c9c2ac2ff957aab102f3f91bf9ca9349649f176d
-- SSL: NO
-
-```shell
-curl \
- -X GET 'http://localhost:7700/keys' \
- -H "Content-Type: application/json" \
- -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1' | jq
+### keys, version
 ```
-
-#### Production
-
-```shell
 curl \
   -X GET 'http://68.183.17.56/version' \
   -H "Content-Type: application/json" \
@@ -47,14 +27,8 @@ curl \
 ```
 
 ### health
-
-```shell
 curl -X GET 'http://68.183.17.56/health'
 ```
-
-### DititalOcean Managed Servers
-
-#### search.learningukulele.com
 
 ### DigitalOcean Managed
 #### search.learningukulele.com, Meilisearch v1.1
@@ -62,7 +36,7 @@ curl -X GET 'http://68.183.17.56/health'
 - DigitalOcean Droplet Name: search.learningukulele.com
 - Public IP: 68.183.17.56
 - Private IP: 10.136.251.188
-- MeiliSearch Password: mele1-pono-lani-meilisearch-v1
+- MeiliSearch Password: mele1-pono-lani-meilisearvh-v1
 - Default Search API Key: 079029f2cf83186a13933b3f237d27f3f06399894a07480ae77f3771415316a9
 - Default Admin API Key: 948cbc0bb2bb118aa4f4838fb23d0f913dc947e321f68aa25d8eb8d2c5c50d0b
 - SSL: YES
@@ -78,18 +52,20 @@ curl -X GET 'http://68.183.17.56/health'
 - Default Admin API Key: 71e66151baff35d2bebafbfaa546cf6d8f7bef9605d11479c0481d90cc6cb410
 - SSL: YES
 
-#### Links & Resources
+#### Links &amp; Resources
 
 - [**Configure Meilisearch at Launch** &#128279;](https://docs.meilisearch.com/learn/configuration/instance_options.html#command-line-options-and-flags)
 - [Master key and API keys &#128279;](https://docs.meilisearch.com/learn/security/master_api_keys.html)
 - [Keys &#128279;](https://docs.meilisearch.com/reference/api/keys.html)
 
-```shell
+```sh
 ./meilisearch --master-key="1iZWk0Jbo7OimxTzJOBQ"
 ```
 
-## API Keys
 
+
+
+## API Keys
 - Default **SEARCH** API Key (public): Use it to _search from the frontend_
 - Default **ADMIN** API Key (private): Use it for anything that is **NOT** _a search operation_. Caution! Do not expose it on a public frontend
 
@@ -99,7 +75,6 @@ curl -X GET 'http://68.183.17.56/health'
 - (&check; 3 OCT 2022) - [search.curtsheller-dev.com (https)](https://search.learningukulele.com/health) &bull;
 
 ## Specs &#9881;
-
 - MeiliSearch Version: **v0.23**
 - Forge Managed: YES
 - DigitalOcean Droplet Name: **meilisearch-forge-lu**
@@ -135,7 +110,6 @@ curl -X GET 'http://68.183.17.56/health'
 - (&check; 3 OCT 2022) - [search2.learningukulele.com/health (https)](https://search2.learningukulele.com/health) &bull;
 
 ## Specs &#9881;
-
 - MeiliSearch Version: **v0.28**
 - Forge Managed: NO
 - DigitalOcean Droplet Name: **meilisearch-learningukulele-two**
@@ -153,14 +127,13 @@ curl -X GET 'http://68.183.17.56/health'
 ```
 
 ## Testing Production
-
 - (&check; 3 OCT 2022) - [search.learningukulele.com](https://search.learningukulele.com/health) &bull; (**WORKED: 3 Oct 2022**)
 - (&check; 3 OCT 2022) - [search2.learningukulele.com](https://search2.learningukulele.com) &bull;
+
 
 ## Commands (CLI)
 
 ### Keys
-
 ```sh
 curl \
   -X GET 'http://localhost:7700/keys' \
@@ -197,6 +170,7 @@ curl \
 - [**Configure Meilisearch at Launch** &#128279;](https://docs.meilisearch.com/learn/configuration/instance_options.html#command-line-options-and-flags)
 - [Master key and API keys &#128279;](https://docs.meilisearch.com/learn/security/master_api_keys.html)
 - [Keys &#128279;](https://docs.meilisearch.com/reference/api/keys.html)
+
 
 ```sh
 curl \
