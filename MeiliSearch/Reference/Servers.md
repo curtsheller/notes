@@ -25,7 +25,7 @@ Anything other than `health` needs authorization.
 #### Local Development
 #### http://llocalhost:7700, Meilisearch v1.1
 
-- MeiliSearch Password: mele1-pono-lani-meilisearch-v1
+- MeiliSearch Key: mele1-pono-lani-meilisearch-v1
 - Default Search API Key: ccff7d9bc3e96f7bf83715490992a86f84a9ee46455fce56551fc0a1cee0c50a
 - Default Admin API Key: 52daacc90ed3d89ec3d0ad49c9c2ac2ff957aab102f3f91bf9ca9349649f176d
 - SSL: NO
@@ -41,9 +41,9 @@ curl \
 
 ```shell
 curl \
-  -X GET 'http://68.183.17.56/version' \
+  -X GET 'https://157.230.52.50/version' \
   -H "Content-Type: application/json" \
-  -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1' | jq
+  -H 'Authorization: Bearer ZjAyOGM3MzRkZThmNWFjNzIxMThmNTIz' | jq
 ```
 
 ### health
@@ -62,18 +62,18 @@ curl -X GET 'http://68.183.17.56/health'
 - DigitalOcean Droplet Name: search.learningukulele.com
 - Public IP: 68.183.17.56
 - Private IP: 10.136.251.188
-- MeiliSearch Password: mele1-pono-lani-meilisearch-v1
+- MeiliSearch Key: mele1-pono-lani-meilisearch-v1
 - Default Search API Key: 079029f2cf83186a13933b3f237d27f3f06399894a07480ae77f3771415316a9
 - Default Admin API Key: 948cbc0bb2bb118aa4f4838fb23d0f913dc947e321f68aa25d8eb8d2c5c50d0b
 - SSL: YES
 
 ### DigitalOcean Managed
-#### search2.learningukulele.com
+#### search2.learningukulele.com (v)
 
 - DigitalOcean Droplet Name: search2.learningukulele.com
 - Public IP: 157.230.52.50
 - Private IP: 10.136.251.188
-- MeiliSearch Password: ZjAyOGM3MzRkZThmNWFjNzIxMThmNTIz
+- MeiliSearch Key: ZjAyOGM3MzRkZThmNWFjNzIxMThmNTIz
 - Default Search API Key: 22dc810f54d75d4b9394a39273d2d753cd47f99a01bc9dbcc1d87dea8c2d64b5
 - Default Admin API Key: 71e66151baff35d2bebafbfaa546cf6d8f7bef9605d11479c0481d90cc6cb410
 - SSL: YES
