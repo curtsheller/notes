@@ -41,8 +41,9 @@ pdftoppm -png ~/dev/convert/{input.pdf) {output.file}
 
 ### Example
 ```
-pdftoppm -png ~/CSP/Curt-Sheller-Publications/Lessons/Piano/PL01-Major-Scale-Fingerings/PL01/PDF/PL01-Piano-Major-Scale-Fingerings.pdf ~/CSP/Curt-Sheller-Publications/Lessons/Piano/PL01-Major-Scale-Fingerings/PL01/PDF/Samples/PL01
+pdftoppm -png /media/curtsheller/CSP/Curt-Sheller-Publications/Lessons/Songs/UL454-Moanin/PDF/Latest/UL454-Moanin-LS-Fm.pdf /media/curtsheller/CSP/Curt-Sheller-Publications/Lessons/Songs/UL454-Moanin/PDF/Samples/UL454-Fm
 ```
+
 
 `pdftoppm -png ~/dev/convert/{input.pdf) {output.file}`
 
@@ -68,3 +69,6 @@ pdftoppm -png ~/CSP/Curt-Sheller-Publications/Lessons/Piano/PL01-Major-Scale-Fin
 
 chmod u+x watch-incoming.sh
 ./watch-incoming.sh
+
+----
+****Curt Sheller Publications** • Pottstown, PA 19464 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [updated: **2023-05-05**]

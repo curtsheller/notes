@@ -6,7 +6,7 @@
 - [Syncthing &#128279;](https://syncthing.net/)
   - [Usage &#128279;](https://docs.syncthing.net/users/index.html)
   - [Configuration &#128279;](https://docs.syncthing.net/users/config.html)
-- [Debian/Ubuntu Packages &#128279;](https://apt.syncthing.net/) &bull Add PGP keys and APT sources then.
+- [Debian/Ubuntu Packages &#128279;](https://apt.syncthing.net/) &bull; Add PGP keys and APT sources then.
 
 ## TO DO
 
@@ -30,7 +30,7 @@ systemctl status syncthing@curtsheller.service
 
 # Device Identification
 
-- [ ] (2023-01-13) - _Need to add new ID for Apple Studion computer and check on iMac._
+- [x] (2023-01-13) - _Need to add new ID for Apple Studio computer and check on iMac._
 
 - **Kelly's Macbook** &rarr; **LA6T4YY-P4HB7ZK-H6R7YOO-Z4OEP3C-EWBLIXJ-BLOQV3Z-5IJGA6B-4S6SMQ6**
 - **CSP Apple Studio Mac** &rarr; **YQNLUOL-UU4Z7WF-2LWIQEW-ZYJ3DFZ-32QL4TL-WW6KSBM-MTMUZP6-VCRMYAW**
@@ -70,7 +70,7 @@ On macOS create symlink **CSP** to the CSP drive and **FunkyFrets** drive in '$H
 
 - /media/curtsheller/CSP/**Curt-Sheller-Publications**
 
-#### Moveed To Somewhere Else
+#### Moved To Somewhere Else
 
 - /media/curtsheller/CSP/**Sites**
 
