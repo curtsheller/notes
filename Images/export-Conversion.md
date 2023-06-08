@@ -48,7 +48,7 @@ pdftoppm -png ~/dev/convert/{input.pdf) {output.file}
 ### Example
 
 ```sh
-pdftoppm -png '/media/curtsheller/CSP/Curt-Sheller-Publications/Lessons/Songs/UL500 All My Loving/PDF/UL500-All-My-Loving.pdf' '/media/curtsheller/CSP/Curt-Sheller-Publications/Lessons/Songs/UL500 All My Loving/PDF/Samples/UL500'
+pdftoppm -png '/home/curtsheller/Curt-Sheller-Publications/Lessons/Songs/UL402 Autumn Leaves/PDF/UL402-LS-Am-Autumn-Leaves.pdf' '/home/curtsheller/Curt-Sheller-Publications/Lessons/Songs/UL402 Autumn Leaves/PDF/Samples/UL402-LS-Am'
 ```
 
 `pdftoppm -png ~/dev/convert/{input.pdf) {output.file}`

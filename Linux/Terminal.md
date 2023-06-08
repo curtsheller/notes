@@ -2,7 +2,6 @@
 
 - Use [**iTerm2**, **Oh My Zsh**, and **Powerlevel10k**  &rarr;](https://opensource.com/article/20/8/iterm2-zsh?utm_campaign=intrel) to create a terminal built for productivity.
 
-
 ## Linux
 
 ### GNOME Terminal
