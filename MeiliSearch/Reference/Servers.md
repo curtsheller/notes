@@ -1,4 +1,5 @@
 # MeiliSearch Servers
+UPDATED: 2023-06-14
 
 # Keys
 
@@ -23,11 +24,11 @@ The **`/keys`** route allows you to create, manage, and delete API keys. To use 
 Anything other than `health` needs authorization.
 
 #### Local Development
-#### http://llocalhost:7700, Meilisearch v1.1
+#### http://llocalhost:7700, Meilisearch v1.2
 
 - MeiliSearch Key: mele1-pono-lani-meilisearch-v1
-- Default Search API Key: ccff7d9bc3e96f7bf83715490992a86f84a9ee46455fce56551fc0a1cee0c50a
-- Default Admin API Key: 52daacc90ed3d89ec3d0ad49c9c2ac2ff957aab102f3f91bf9ca9349649f176d
+- Default Search API Key: 41a60f0193a624ae56609df1442351b78c35c1a8c621d3ffcc045c6432e9bc75
+- Default Admin API Key: e2f80e823081d184bd3d034d65bec4d8ce435059fbee065d68942eae39bfd9a5
 - SSL: NO
 
 ```shell
@@ -205,3 +206,6 @@ curl \
 curl \
   -X GET 'https://167.99.152.193/version' -H 'Authorization: Bearer MASTER_KEY' | jq
 ```
+
+----
+****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA, **FF**: Boyertown, PA 19512 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2023-06-14**]

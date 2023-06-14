@@ -2,8 +2,8 @@
 
 Change the *export file name* and .*env database name* for all references
 
-- forge-ALL-2023_06_05_1550.sql
-- lu_2023_06_05_1550
+- forge-ALL-2023_06_13_1720.sql
+- lu_2023_06_13_1720
 
 ## Production
 
@@ -12,7 +12,7 @@ Change the *export file name* and .*env database name* for all references
 ```sh
 lussh
 lu
-mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2023_06_05_1550.sql
+mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2023_06_13_1720.sql
 ```
 
 ## Local
@@ -20,14 +20,14 @@ mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2023_06_05_1550.sql
    Switch to local computer and copy dump file to local.
 
 ```sh
-scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2023_06_05_1550.sql ~/Exports/forge
+scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2023_06_13_1720.sql ~/Exports/forge
 ```
 
 #### Create New database
 
 Log in to local an MySQL and create and import to database.
    - mysql -u root -pBenny7JB
-   - mysql> CREATE DATABASE lu_2023_06_05_1550;
+   - mysql> CREATE DATABASE lu_2023_06_13_1720;
    - mysql> SHOW DATABASES;
    - mysql> exit
 
@@ -37,14 +37,14 @@ Log in to local an MySQL and create and import to database.
 ## Import tables/data to new database
 
 ```sh
-mysql -u root -pBenny7JB lu_2023_06_05_1550 < ~/Exports/forge/forge-ALL-2023_06_05_1550.sql
+mysql -u root -pBenny7JB lu_2023_06_13_1720 < ~/Exports/forge/forge-ALL-2023_06_13_1720.sql
 ```
 ### Update .env file with new local db name
-- DB_DATABASE=lu_2023_06_05_1550
+- DB_DATABASE=lu_2023_06_13_1720
 
 #### cd in to learningukulele.com local site
 
-- Run `lu-refresh` for all tables (*except assignments*) or `srl` script to have Meilisearch create search indexes for lessons only.
+- Run `lu-refresh` script  or the Laravel `php artisan learningukulele:import` command for all tables to have Meilisearch create search indexes for lessons only.
 - Clear caches.
 
 
@@ -78,3 +78,6 @@ rm [dumped-file]
 - [MySQL Tutorial](https://www.mysqltutorial.org/mysql-show-databases/)
 - [Mysqldump with Modern MySQL](https://serversforhackers.com/c/mysqldump-with-modern-mysql)
 - TecAdmin.net: [**MySQL on Ubuntu 20.04** -->](https://tecadmin.net/install-mysql-ubuntu-20-04/)
+
+----
+****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA, **FF**: Boyertown, PA 19512 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2023-06-14**]

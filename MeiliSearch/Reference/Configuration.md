@@ -58,5 +58,14 @@ curl \
 
 curl -X GET 'http://localhost:7700/indexes/users/settings' | jq
 
+curl -X GET 'http://localhost:7700/keys' | jq
+curl \
+  -X GET 'http://localhost:7700/keys' \
+  -H "Content-Type: application/json" \
+  -H 'Authorization: Bearer' | jq
+
 curl -H "X-Meili-API-Key: 1e2341068cf4d1e35b0dac99de5d889a6e5b1faa74cc0587f61796dbd938345a"  \
 -X GET 'https://search.curtsheller-dev.com/indexes/playlongs/settings' | jq
+
+----
+****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA, **FF**: Boyertown, PA 19512 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2023-06-14**]
