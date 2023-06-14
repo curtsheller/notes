@@ -36,9 +36,19 @@ Log in to local an MySQL and create and import to database.
 
 ## Import tables/data to new database
 
+On Thelio
+
 ```sh
 mysql -u root -pBenny7JB lu_2023_06_13_1720 < ~/Exports/forge/forge-ALL-2023_06_13_1720.sql
 ```
+
+On macOS
+
+```
+mysql -u root lu_2023_06_13_1720 < ~/Exports/forge/forge-ALL-2023_06_13_1720.sql
+
+```
+
 ### Update .env file with new local db name
 - DB_DATABASE=lu_2023_06_13_1720
 
