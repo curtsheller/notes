@@ -29,8 +29,11 @@ $SHELL --version
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-``
+```
 
 #### Links &amp; Resources
 
 - [**Install and Setup Zsh on Ubuntu** &#128279;](https://learnubuntu.com/install-setup-zsh/) &bull Envy the beautiful Z shell? Learn how to install zsh on Ubuntu and customize it with Oh My Zash. *by Sagar Sharma Sep 12, 2022*
+
+----
+****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA, **FF**: Boyertown, PA 19512 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2023-07-15**]

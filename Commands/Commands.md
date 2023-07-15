@@ -43,7 +43,10 @@ lrwxrwxrwx 36 root  2 Feb 15:30 /etc/localtime -> /usr/share/zoneinfo/America/Ne
 ```
 
 All available time zones, use the timedatectl command or list the files in the /usr/share/zoneinfo directory:
-- `timedatectl list-timezones
+- `timedatectl list-timezones`
 
 Change your time zone:
-- `sudo timedatectl set-timezone <your_time_zone>``
+- `sudo timedatectl set-timezone <your_time_zone>`
+
+----
+****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA, **FF**: Boyertown, PA 19512 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2023-07-15**]

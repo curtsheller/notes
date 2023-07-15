@@ -1,48 +1,55 @@
 # MySQL: LearningUkulele.com Export and Local Import
 
-Change the *export file name* and .*env database name* for all references
+- [] Change the *export file name* and .*env database name* for all references
 
-- forge-ALL-2023_06_13_1720.sql
-- lu_2023_06_13_1720
+- []  forge-ALL-2023_06_26_0930.sql
+- []  lu_2023_06_26_0930
 
-## Production
+# Production
 
-*Login*, **cd** to learningukulele.com and *dump* db.
+- [] *Login*, **cd** to learningukulele.com and *dump* db.
 
 ```sh
 lussh
 lu
-mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2023_06_13_1720.sql
+mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2023_06_26_0930.sql
 ```
 
-## Local
+# Local
 
-   Switch to local computer and copy dump file to local.
+- [] Switch to local computer and copy dump file to local.
 
 ```sh
-scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2023_06_13_1720.sql ~/Exports/forge
+scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2023_06_26_0930.sql ~/Exports/forge
 ```
 
-#### Create New database
+## Create New database
 
-Log in to local an MySQL and create and import to database.
+- [] Log in to local an MySQL and create and import to database.
    - mysql -u root -pBenny7JB
-   - mysql> CREATE DATABASE lu_2023_06_13_1720;
+   - mysql> CREATE DATABASE lu_2023_06_26_0930;
    - mysql> SHOW DATABASES;
    - mysql> exit
 
-#### Drop Previous Databases (Optional)
+## Drop Previous Databases (Optional)
 - mysql> DROP DATABASE lu_2023_03_08_1015;
 
 ## Import tables/data to new database
 
+- [] Import db file
 ```sh
-mysql -u root -pBenny7JB lu_2023_06_13_1720 < ~/Exports/forge/forge-ALL-2023_06_13_1720.sql
+mysql -u root -pBenny7JB lu_2023_06_26_0930 < ~/Exports/forge/forge-ALL-2023_06_26_0930.sql
 ```
-### Update .env file with new local db name
-- DB_DATABASE=lu_2023_06_13_1720
 
-#### cd in to learningukulele.com local site
+## Update .env file with new local db name
+
+- [] Import .env file
+
+- DB_DATABASE=lu_2023_06_26_0930
+
+## cd in to learningukulele.com local site
+
+- [] Import/Update Meilisearch (Laravel Scout)
 
 - Run `lu-refresh` script  or the Laravel `php artisan learningukulele:import` command for all tables to have Meilisearch create search indexes for lessons only.
 - Clear caches.
@@ -56,10 +63,10 @@ lu
 rm [dumped-file]
 ```
 
-## Optional
+# Optional
 
 - Clean up local databases, and export files.
-- Update dBeaver and TablePlus for new database.
+- Update **dBeaver** and **TablePlus** for new database.
 
 # Resources & Links
 

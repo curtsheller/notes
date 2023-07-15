@@ -53,3 +53,5 @@ N: See apt-secure(8) manpage for repository creation and user configuration deta
 
 https://itsfoss.com/repository-does-not-have-release-file-error-ubuntu/
 
+----
+****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA, **FF**: Boyertown, PA 19512 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2023-07-15**]

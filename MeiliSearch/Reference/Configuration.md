@@ -6,6 +6,8 @@ Use the same Master Key for local and production.
 
 1. Create Server
 
+Using DigitalOcean for Meilisearch servers.
+
 2. Retrieve API Keys
 
 3. Update Server Network  (MeiliSearch-Server)

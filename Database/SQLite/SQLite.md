@@ -7,8 +7,6 @@ SQLite vs MySQL
 SQLite, as well as MySQL, are open source Relational Database Management System (RDBMS).
 
 
-
-
 SQLite supports BLOB, NULL, INTEGER, TEXT, REAL.
 MySQL supports NUMERIC, DATE, DATETIME, TIMESTAMP, NTINYTEXT, BLOB, TEXT, MEDIUMBLOB, MEDIUMTEXT,TIME, YEAR, CHAR, VARCHAR, TINYBLOB, TINYINT, SMALLINT, MEDIUMINT, INT or INTEGER, BIGINT, FLOAT, DOUBLE, DOUBLE DECIMAL, LONGBLOB, LONGTEXT, PRECISION, REAL, ENUM, and SET. Both the SQLite and MYSQL have certain advantages.
 SQLite is file-based — the database consists of a single file on the disk, which makes it extremely portable and reliable. Although it might appear like a “simple” DB implementation, SQL is used in SQLite. SQLite is meant to be great for both developing and testing and offers more than what is needed for development.
@@ -26,8 +24,8 @@ For websites that work on MySQL despite some constraints. It's a scalable tool t
 How to install SQLite on Ubuntu 20.04 / 18.04? - https://www.osradar.com/install-sqlite-ubuntu-20-04/
 How to install SQLite for PHP on my Apache/nginx server? - https://www.getastra.com/kb/knowledgebase/how-to-install-sqlite-for-php-on-my-apache-nginx-server/
 How to Install and Basic SQLite Use on Linux - https://linoxide.com/linux-how-to/install-use-sqlite-linux/
-$ sudo apt-get update
-$ sudo apt-get install sqlite3
+$ sudo apt update
+$ sudo apt install sqlite3
 
 .help command list all the meta commands and their descriptions. These meta commands are also called "dot" commands because they are preceded by a dot.
 
@@ -37,3 +35,6 @@ $ sudo apt-get install sqlite3
 ## Links &amp; Resources
 
 - [**SQLite** ](https://learningukulele-dev.test/database/sqlite)
+
+----
+****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA, **FF**: Boyertown, PA 19512 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2023-07-15**]

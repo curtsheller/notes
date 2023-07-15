@@ -12,7 +12,8 @@
 curl -L https://install.meilisearch.com | sh
 
 # Launch Meilisearch
-./meilisearch
+```sh
+./meilisearch --key=mele1-pono-lani-holo-v1
 ```
 
 ## apt

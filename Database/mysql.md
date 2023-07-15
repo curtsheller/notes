@@ -118,3 +118,6 @@ mysql -u root -pBenny7JB@12345 lu_2023_01_25_1515 < ~/Exports/forge/forge-ALL-25
 - [MySQL Tutorial](https://www.mysqltutorial.org/mysql-show-databases/)
 - [Mysqldump with Modern MySQL](https://serversforhackers.com/c/mysqldump-with-modern-mysql)
 - TecAdmin.net: [**MySQL on Ubuntu 20.04** -->](https://tecadmin.net/install-mysql-ubuntu-20-04/)
+
+----
+****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA, **FF**: Boyertown, PA 19512 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2023-07-15**]
