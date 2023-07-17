@@ -36,10 +36,7 @@ scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2023_06_26_09
 
 ## Import tables/data to new database
 
-- [] Import db file
-```sh
-mysql -u root -pBenny7JB lu_2023_06_26_0930 < ~/Exports/forge/forge-ALL-2023_06_26_0930.sql
-```
+
 
 ## Update .env file with new local db name
 
