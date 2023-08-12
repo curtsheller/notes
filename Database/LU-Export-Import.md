@@ -2,8 +2,8 @@
 
 - [] Change the *export file name* and .*env database name* for all references
 
-- []  forge-ALL-2023_07_21_1810.sql
-- []  lu_2023_07_21_1810
+- []  forge-ALL-2023_08_11_1900.sql
+- []  lu_2023_08_11_1900
 
 # Production
 
@@ -12,7 +12,7 @@
 ```sh
 lussh
 lu
-mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2023_07_21_1810.sql
+mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2023_08_11_1900.sql
 ```
 
 # Local
@@ -20,14 +20,14 @@ mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2023_07_21_1810.sql
 - [] Switch to local computer and copy dump file to local.
 
 ```sh
-scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2023_07_21_1810.sql ~/Exports/forge
+scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2023_08_11_1900.sql ~/Exports/forge
 ```
 
 ## Create New database
 
 - [] Log in to local an MySQL and create and import to database.
    - mysql -u root -pBenny7JB
-   - mysql> CREATE DATABASE lu_2023_07_21_1810;
+   - mysql> CREATE DATABASE lu_2023_08_11_1900;
    - mysql> SHOW DATABASES;
    - mysql> exit
 
@@ -36,21 +36,21 @@ scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2023_07_21_18
 
 ## Import tables/data to new database
 
+```
+mysql -u root -pBenny7JB lu_2023_08_11_1900 < ~/Exports/forge/forge-ALL-2023_08_11_1900.sql
+```
+
 ## Update .env file with new local db name
 
-- [] Import .env file
+- [] Update .env file
 
-```
-mysql -u root -pBenny7JB lu_2023_07_21_1810 < ~/Exports/forge/forge-ALL-2023_07_21_1810.sql
-```
-
-- DB_DATABASE=lu_2023_07_21_1810
+- DB_DATABASE=lu_2023_08_11_1900
 
 ## cd in to learningukulele.com local site
 
 - [] Import/Update Meilisearch (Laravel Scout)
 
-- Run `lu-refresh` script  or the Laravel `php artisan learningukulele:import` command for all tables to have Meilisearch create search indexes for lessons only.
+- Run `lu-refresh` script or the (TODO: this is not really working) Laravel `php artisan learningukulele:import` command for all tables to have Meilisearch create search indexes for lessons only.
 - Clear caches.
 
 
