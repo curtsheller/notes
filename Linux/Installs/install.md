@@ -112,7 +112,7 @@ Default shell on mac OS.
     sudo apt install zsh
 ```
 ### Oh-My-ZSH
-[**Oh-My-ZSH** &#128279;](https://ohmyz.sh/) is an excellent tool for managing your ZSH configuration. Install it using the following command:
+[**Oh-My-ZSH** &rArr;](https://ohmyz.sh/) is an excellent tool for managing your ZSH configuration. Install it using the following command:
 
 ```bash
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -120,9 +120,9 @@ Default shell on mac OS.
 
 
 #### Resources &amp; Links
-- [CSP Notes: **Terminal** &#128279;](https://learningukulele-dev.com/terminal#Zsh)
-- [**Starship** &ndash; CROSS-SHELL PROMPT &#128279;](https://starship.rs/) &bull; The minimal, blazing-fast, and infinitely customizable prompt for any shell!
-- [**Nerd Font**  &#128279;](https://www.nerdfonts.com/)
+- [CSP Notes: **Terminal** &rArr;](https://learningukulele-dev.com/terminal#Zsh)
+- [**Starship** &ndash; CROSS-SHELL PROMPT &rArr;](https://starship.rs/) &bull; The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+- [**Nerd Font**  &rArr;](https://www.nerdfonts.com/)
 
 ## git Configuration
 ```bash
@@ -160,11 +160,11 @@ Default shell on mac OS.
 License is in Bitwarden.
 
 #### Resources &amp; Links
-- [Sublime Text &#128279;](https://www.sublimetext.com/) &bull; Text editor
-- [Sublime Merge  &#128279;](https://www.sublimemerge.com//) &bull; git client.
+- [Sublime Text &rArr;](https://www.sublimetext.com/) &bull; Text editor
+- [Sublime Merge  &rArr;](https://www.sublimemerge.com//) &bull; git client.
 
 ### VS Code Option
-- [VSCodium &#128279;](https://github.com/VSCodium/vscodium) &bull; Build script.
+- [VSCodium &rArr;](https://github.com/VSCodium/vscodium) &bull; Build script.
 
 ### NodeJS
 ```bash
@@ -206,9 +206,8 @@ Skype, ZOOM, VLC, Multimedia Codecs, OBS
 
 ## Pop!_os Setup Guides
 
-- [flamedfury.com &#128279;
-;](https://flamedfury.com/guides/pop-os-setup/)
-- [mutschler.dev &#128279;](https://mutschler.dev/linux/pop-os-post-install/#set-hostname)
-- &starf; [Pop!_OS 20.04 Setup for Web Developers &#128279;](https://github.com/erik1066/pop-os-setup)
-- [Pop!_OS Setup Script &#128279;](https://github.com/TechnologyMan101/pop-os-setup-script) &bull; Bash script to set up a fresh install of Pop!_OS.
+- [flamedfury.com &rArr;](https://flamedfury.com/guides/pop-os-setup/)
+- [mutschler.dev &rArr;](https://mutschler.dev/linux/pop-os-post-install/#set-hostname)
+- &starf; [Pop!_OS 20.04 Setup for Web Developers &rArr;](https://github.com/erik1066/pop-os-setup)
+- [Pop!_OS Setup Script &rArr;](https://github.com/TechnologyMan101/pop-os-setup-script) &bull; Bash script to set up a fresh install of Pop!_OS.
 
