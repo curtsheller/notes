@@ -29,3 +29,6 @@ I’m a student, not a guru.
 
 Kumu
 He haumāna au. I am a student.
+
+
+pa‘ani - Play

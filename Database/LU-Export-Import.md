@@ -2,8 +2,8 @@
 
 - [] Change the *export file name* and .*env database name* for all references
 
-- []  forge-ALL-2023_08_11_1900.sql
-- []  lu_2023_08_11_1900
+- []  forge-ALL-2023_09_13_0945.sql
+- []  lu_2023_09_13_0945
 
 # Production
 
@@ -12,7 +12,7 @@
 ```sh
 lussh
 lu
-mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2023_08_11_1900.sql
+mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2023_09_13_0945.sql
 ```
 
 # Local
@@ -20,14 +20,14 @@ mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2023_08_11_1900.sql
 - [] Switch to local computer and copy dump file to local.
 
 ```sh
-scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2023_08_11_1900.sql ~/Exports/forge
+scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2023_09_13_0945.sql ~/Exports/forge
 ```
 
 ## Create New database
 
 - [] Log in to local an MySQL and create and import to database.
    - mysql -u root -pBenny7JB
-   - mysql> CREATE DATABASE lu_2023_08_11_1900;
+   - mysql> CREATE DATABASE lu_2023_09_13_0945;
    - mysql> SHOW DATABASES;
    - mysql> exit
 
@@ -37,14 +37,14 @@ scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2023_08_11_19
 ## Import tables/data to new database
 
 ```
-mysql -u root -pBenny7JB lu_2023_08_11_1900 < ~/Exports/forge/forge-ALL-2023_08_11_1900.sql
+mysql -u root -pBenny7JB lu_2023_09_13_0945 < ~/Exports/forge/forge-ALL-2023_09_13_0945.sql
 ```
 
 ## Update .env file with new local db name
 
 - [] Update .env file
 
-- DB_DATABASE=lu_2023_08_11_1900
+- DB_DATABASE=lu_2023_09_13_0945
 
 ## cd in to learningukulele.com local site
 
@@ -52,7 +52,6 @@ mysql -u root -pBenny7JB lu_2023_08_11_1900 < ~/Exports/forge/forge-ALL-2023_08_
 
 - Run `lu-refresh` script or the (TODO: this is not really working) Laravel `php artisan learningukulele:import` command for all tables to have Meilisearch create search indexes for lessons only.
 - Clear caches.
-
 
 ## Cleanup Production
 
