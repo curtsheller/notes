@@ -78,7 +78,7 @@ GRANT ALL on mydb.* to 'myuser'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-## Resoruces, Notes &amp; Links
+## Resources, Notes &amp; Links
 
 -   TecAdmin.net: [**How to Install Latest phpMyAdmin on Ubuntu 20.04** -->](https://tecadmin.net/install-phpmyadmin-ubuntu-20-04/)
 
@@ -91,3 +91,6 @@ FLUSH PRIVILEGES;
 *
 MySQL Backup and Restore Commands for Database Administration
 * https://www.tecmint.com/mysql-backup-and-restore-commands-for-database-administration/
+
+----
+**Curt Sheller Publications**/**Funky Frets** • **CSP**: Pottstown, PA 19464 USA, **FF**: Boyertown, PA 19512 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2023-11-27**]
