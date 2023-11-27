@@ -2,7 +2,7 @@
 
 ## Books
 
-## Six Secerts of Fingering for Ukulele
+## Six Secrets of Fingering for Ukulele
 
 ### Errors from Edward Fass
 - [ ] **Page 25**, 2nd example wrong.
@@ -38,10 +38,9 @@
 - [ ] Fm7b5 the second one should be fret 4, not fret 5.
 - [ ] core chords on triads, sus chords, page 4 a dot is off, on the lower right corner.
 
-#### General Todo Items
-- [ ] Get to 700 for lessons
+#### General TOD Items
+- [x] Get to 700 for lessons
 - [ ] Add more play-along tracks
 - [ ] Typos on site
 - [ ] Clean up Getting Started, What Level Are You?
-- [ ] Mailcoach v4 Install & Setup
-- [ ] Laravel Stripe
+- [x] Laravel Stripe

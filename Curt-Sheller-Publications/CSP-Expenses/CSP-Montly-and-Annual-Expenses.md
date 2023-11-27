@@ -8,13 +8,13 @@ The montly and annual supscriptions/memberships for the tools and services for t
 | ----------------------|-----------|:-:|:-----:|------:|-----------|:----------------------|
 | **Algolia**           |Search     | M |$29    | 8000  | CANCELED  |algolia.com, TODO: replaced with OSS **MeliSearch** (meilisearch.com) |
 
-| **Backblaze**         |Backup     | A |$60    | 6540  | November  |backblaze.com, iMac Computer Backup (curts-imac-2_2020_01_29) |
+| **Backblaze**         |Backup     | A |$60    | 0132  | November  |backblaze.com, iMac Computer Backup (curts-imac-2_2020_01_29) |
 | **Bear**              |Apps       | A |$14.99 |PayPal | CANCELED  |www.bear.app, **Ends On 2021-01-08**. Replaced with FREE, OSS Joplin.    |
 | **Bitwarden**         |Passwords  | A |$10    | 9871  | February  |OSS, bitwarden.com |
 
 | **CuriosityStream**   |Apps       | A |$24.99 |PayPal | July      |Cancelling 2023-07-02                       |
 
-| **Digital Ocean**     |Hosting    | M |$100*  |       | 1st       |digitialocean.com, All sites are on DO except Jamulus servers: linode |
+| **Digital Ocean**     |Hosting    | M |$100*  | 0132  | 1st       |digitialocean.com, All sites are on DO except Jamulus servers: linode |
 
 | **FastMail**          |Mail       | B |$100.70| 8999  | 2023-11-23|fastmail.com, funkyfrets.com |
 | **FastMail**          |Mail       | B |$100.70| 7531  | 2024-06-06|fastmail.com, curtsheller.com, also notes and calendars |
@@ -32,7 +32,7 @@ The montly and annual supscriptions/memberships for the tools and services for t
 | **Laravel forge**     |ADMIN      | A |$199   | 8999  | 2023-04-21 |forge.laravel.com, All Servers Management|
 | **Laravel Spark**     |Billing    | U |$104.94| 9871  | w/updates  |Last: 2022-03-15, spark.laravel.com, LU Membership Billing with Stripe   |
 | **Laravel Nova**      |Server     | U |$99    | ?     | w/updates  |Last: 2022-04-11, nova.laravel.com, Site Models Admin          |
-| **linode**            |Hosting    | M |$25*   |PayPal | 1st        |linode.com, Funky Frets Jamulus Server, curtsheller-csp-, curtsheller |
+| **linode**            |Hosting    | M |$25*   | 0132 | 1st        |linode.com, Funky Frets Jamulus Server, curtsheller-csp-, curtsheller |
 
 | **MEGASync**          |Cloud      | A |$120   |       | CANCELLED  |mega.nz, **2 TB** Storage |
 | **Musescore**         |Music      | A |$39.99 |       | JUNE       |musescore.org,  |

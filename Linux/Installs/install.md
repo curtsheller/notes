@@ -153,7 +153,7 @@ Default shell on mac OS.
     echo "deb https://download.sublimetext.com/ apt/stable/" | \
     sudo tee /etc/apt/sources.list.d/sublime-text.list
 
-    sudo apt apdate
+    sudo apt update
     sudo apt install sublime-merge
 ```
 
@@ -203,6 +203,8 @@ Skype, ZOOM, VLC, Multimedia Codecs, OBS
     sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pkg
     sudo apt install -y obs-studio
 ```
+# Video
+- [Use yt-dlp to Download YouTube Videos on Linux &rArr;](https://www.makeuseof.com/download-youtube-videos-yt-dlp-linux-terminal/) &bull; This is an alternative to `youtube-dlp` as it does not workanymore.
 
 ## Pop!_os Setup Guides
 

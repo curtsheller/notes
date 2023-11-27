@@ -16,7 +16,7 @@ Basic steps. See **Database/MySQL/lu-export-import.md** for complete steps.
 ```
 $ mysqldump -u forge -p forge > forge-ALL-BU-$(date +%F-%T).sql
 ```
-Note: Ingore the *[Warning] Using a password on the command line interface can be insecure.* return from the command. The file is written to the current terminal.
+Note: Ignore the *[Warning] Using a password on the command line interface can be insecure.* return from the command. The file is written to the current terminal.
 
 ## COPY FROM forge
 

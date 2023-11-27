@@ -86,9 +86,9 @@ Find your local number: https://us02web.zoom.us/u/kCiGQ66EW
 
 # Follow up After Workshop
 
-Thanks to for attending the Bass for Ukulele Players workshop. The video will be available a few days after the workshop. Hope you enjoyed it and you probally got a bit out of it to keep you busy for awhile.
+Thanks to for attending the Bass for Ukulele Players workshop. The video will be available a few days after the workshop. Hope you enjoyed it and you probably got a bit out of it to keep you busy for awhile.
 
-I'll send an email out whent he videos goes up.
+I'll send an email out when the videos goes up.
 
 Thanks for you support and see you at [the next workshop(s). =>>](https://learningukulele.com/live)
 

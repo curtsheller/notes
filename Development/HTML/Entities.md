@@ -41,10 +41,8 @@
 - &amp;
 - &hellip;
 
+## Checks
 - &check; &cross;
-
-
-&starf; &star; &starf; &star; &starf; &star; &starf;
 
 
 &#9775;
@@ -52,7 +50,12 @@
 &#9842;
 
 &#9872;
+
+## Flags
 &#9873;
+
+## Stars
+-&starf; &star; &#10026;
 
 # Numbers
 &#10102;
@@ -95,3 +98,5 @@
 &flat; &sharp; &natural;
 
 &#9835; &#9836;
+
+# Stars
