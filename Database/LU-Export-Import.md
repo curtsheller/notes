@@ -2,8 +2,8 @@
 
 - [ ] Change the *export file name* and .*env database name* for all references
 
-- [ ]  forge-ALL-2024_01_18_1500.sql
-- [ ]  lu_2024_01_18_1500
+- [ ]  forge-ALL-2024_02_26_1100.sql
+- [ ]  lu_2024_02_26_1100
 
 # Production
 
@@ -12,7 +12,7 @@
 ```sh
 lussh or ssh lu
 lu
-mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2024_01_18_1500.sql
+mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2024_02_26_1100.sql
 ```
 
 # Local
@@ -20,31 +20,31 @@ mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2024_01_18_1500.sql
 - [] Switch to local computer and copy dump file to local.
 
 ```sh
-scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2024_01_18_1500.sql ~/Exports/forge
+scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2024_02_26_1100.sql ~/Exports/forge
 ```
 
 ## Create New database
 
 - [ ] Log in to local an MySQL and create and import to database.
    - mysql -u root -pBenny7JB
-   - mysql> CREATE DATABASE lu_2024_01_18_1500;
+   - mysql> CREATE DATABASE lu_2024_02_26_1100;
    - mysql> SHOW DATABASES;
    - mysql> exit
 
 ## Drop Previous Databases (Optional)
-- mysql> DROP DATABASE lu_2023_12_29_26_1230;
+- mysql> DROP DATABASE lu_2024_01_02_1530;
 
 ## Import tables/data to new database
 
 ```
-mysql -u root -pBenny7JB lu_2024_01_18_1500 < ~/Exports/forge/forge-ALL-2024_01_18_1500.sql
+mysql -u root -pBenny7JB lu_2024_02_26_1100 < ~/Exports/forge/forge-ALL-2024_02_26_1100.sql
 ```
 
-## Update .env file with new local db name
+## Update local .env file with new "local" db name
 
-- [] Update .env file
+- [] Update .env file, TablePlus, DBeaver, etc
 
-- DB_DATABASE=lu_2024_01_18_1500
+- DB_DATABASE=lu_2024_02_26_1100
 
 ## cd in to learningukulele.com local site
 
@@ -85,4 +85,4 @@ rm [dumped-file]
 - TecAdmin.net: [**MySQL on Ubuntu 20.04** -->](https://tecadmin.net/install-mysql-ubuntu-20-04/)
 
 ----
-****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA, **FF**: Boyertown, PA 19512 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2023-06-14**]
+****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA, **FF**: Boyertown, PA 19512 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2024-02-05**]
