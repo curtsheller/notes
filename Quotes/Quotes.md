@@ -22,3 +22,9 @@ _from [Ralph Shaw newsletter &rArr;](https://ralphshaw.ca/newsletter/): The Ukul
 - In a battle between elephants, the ants get squashed: Thai Proverb
 - Where love reigns, the impossible may be attained: Indian Proverb
 - A spoon does not know the taste of soup, nor a learned fool the taste of wisdom: Welsh Proverb
+
+----
+“I like to listen. I have learned a great deal from listening carefully. Most people never listen.”
+― Ernest Hemingway
+
+----

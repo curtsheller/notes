@@ -25,7 +25,7 @@ Linux volumes start with **/media**.
 
 macOS volumes start with **/Volumes**.
 
-- [ ] (2023-01-13) - _Check on new Apple Studion Mac. Might be different._
+- [ ] (2023-01-13) - _Check on new Apple Studio Mac. Might be different._
 
 - /Volumes/CSP
 - /Volumes/CSP/<dir\>
