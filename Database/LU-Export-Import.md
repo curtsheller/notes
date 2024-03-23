@@ -2,8 +2,8 @@
 
 - [ ] Change the *export file name* and .*env database name* for all references
 
-- [ ]  forge-ALL-2024_03_01_2024.sql
-- [ ]  lu_2024_03_01_2024
+- [ ]  forge-ALL-2024_03_20_1130.sql
+- [ ]  lu_2024_03_20_1130
 
 # Production
 
@@ -12,7 +12,7 @@
 ```sh
 lussh or ssh lu
 lu
-mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2024_03_01_2024.sql
+mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2024_03_20_1130.sql
 ```
 
 # Local
@@ -20,14 +20,14 @@ mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2024_03_01_2024.sql
 - [] Switch to local computer and copy dump file to local.
 
 ```sh
-scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2024_03_01_2024.sql ~/Exports/forge
+scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2024_03_20_1130.sql ~/Exports/forge
 ```
 
 ## Create New database
 
 - [ ] Log in to local an MySQL and create and import to database.
    - mysql -u root -pBenny7JB
-   - mysql> CREATE DATABASE lu_2024_03_01_2024;
+   - mysql> CREATE DATABASE lu_2024_03_20_1130;
    - mysql> SHOW DATABASES;
    - mysql> exit
 
@@ -37,20 +37,21 @@ scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2024_03_01_20
 ## Import tables/data to new database
 
 ```
-mysql -u root -pBenny7JB lu_2024_03_01_2024 < ~/Exports/forge/forge-ALL-2024_03_01_2024.sql
+mysql -u root -pBenny7JB lu_2024_03_20_1130 < ~/Exports/forge/forge-ALL-2024_03_20_1130.sql
 ```
 
 ## Update local .env file with new "local" db name
 
 - [] Update .env file, TablePlus, DBeaver, etc
 
-- DB_DATABASE=lu_2024_03_01_2024
+- DB_DATABASE=lu_2024_03_20_1130
 
 ## cd in to learningukulele.com local site
 
 - [] Import/Update Meilisearch (Laravel Scout)
 
-- Run `lu-refresh` script or the (TODO: this is not really working) Laravel `php artisan learningukulele:import` command for all tables to have Meilisearch create search indexes for lessons only.
+- Run `lu-refresh` script or the  Laravel `php artisan learningukulele:import` (TODO: this is not really working), command for all tables to have Meilisearch create search indexes for lessons only.
+
 - Clear caches.
 
 ## Cleanup Production
