@@ -2,8 +2,8 @@
 
 - [ ] Change the *export file name* and .*env database name* for all references
 
-- [ ]  forge-ALL-2024_03_20_1130.sql
-- [ ]  lu_2024_03_20_1130
+- [ ]  forge-ALL-2024_03_26_1310.sql
+- [ ]  lu_2024_03_26_1310
 
 # Production
 
@@ -12,7 +12,7 @@
 ```sh
 lussh or ssh lu
 lu
-mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2024_03_20_1130.sql
+mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2024_03_26_1310.sql
 ```
 
 # Local
@@ -20,14 +20,14 @@ mysqldump -u forge -pBenny7JB-forge-db forge > forge-ALL-2024_03_20_1130.sql
 - [] Switch to local computer and copy dump file to local.
 
 ```sh
-scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2024_03_20_1130.sql ~/Exports/forge
+scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2024_03_26_1310.sql ~/Exports/forge
 ```
 
 ## Create New database
 
 - [ ] Log in to local an MySQL and create and import to database.
    - mysql -u root -pBenny7JB
-   - mysql> CREATE DATABASE lu_2024_03_20_1130;
+   - mysql> CREATE DATABASE lu_2024_03_26_1310;
    - mysql> SHOW DATABASES;
    - mysql> exit
 
@@ -37,14 +37,14 @@ scp forge@157.245.82.239:/home/forge/learningukulele.com/forge-ALL-2024_03_20_11
 ## Import tables/data to new database
 
 ```
-mysql -u root -pBenny7JB lu_2024_03_20_1130 < ~/Exports/forge/forge-ALL-2024_03_20_1130.sql
+mysql -u root -pBenny7JB lu_2024_03_26_1310 < ~/Exports/forge/forge-ALL-2024_03_26_1310.sql
 ```
 
 ## Update local .env file with new "local" db name
 
 - [] Update .env file, TablePlus, DBeaver, etc
 
-- DB_DATABASE=lu_2024_03_20_1130
+- DB_DATABASE=lu_2024_03_26_1310
 
 ## cd in to learningukulele.com local site
 
