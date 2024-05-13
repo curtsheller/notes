@@ -1,6 +1,6 @@
 # Setting Up Dev Computer
 
-( *As of 2020* ) **Using Pop!\_OS on Sytem76 Thelio Computer for all web development.**
+( *As of 2020* ) **Using Pop!\_OS on System76 Thelio Computer for all web development.**
 
 These are all the pagkages and application that need to be on the dev computer. Some are available on **Pop!\_Shop**. Hopefully, ALL can be scripted to install with a script.
 
