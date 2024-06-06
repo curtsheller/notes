@@ -5,7 +5,7 @@
 ```
 # Install &amp; Launch Meilisearch
 
-## curl
+## Local
 
 ```sh
 # Install Meilisearch
@@ -13,9 +13,31 @@ curl -L https://install.meilisearch.com | sh
 
 # Launch Meilisearch
 ```sh
-./meilisearch --master-key="mele1-pono-lani-meilisearch-v1"        #2023-07-17
+./meilisearch --master-key="mele1-pono-lani-meilisearch-v1"
 ```
 
+## Updating
+
+ For local and production you can safely delete current meilisearch versio without a dump and simply install the latest version of Meilisearch required.
+
+
+ ```
+# Local
+_see above_
+
+
+ # Production Cloud
+ Digital is a few version below the latest Meilisearch is using the marketplace version. GOing by hand to get the latest.
+
+
+```
+# ssh in
+ssh root@167.99.127.84 -i ~/.ssh/id_rsa
+meilisearch-set
+```
+
+```
+``
 
 
 ----

@@ -3,7 +3,9 @@
 
 ### Local
 ```
-curl -X GET 'http://localhost:7700/version' | jq
+curl \
+  -X GET 'http://localhost:7700/version' \
+  -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1'  | jq
 ```
 
 #### Response

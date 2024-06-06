@@ -2,7 +2,7 @@
 
 - [How to install PHP extensions on Linux &#128279;](https://www.hostzealot.com/blog/how-to/how-to-install-php-extensions-on-linux)
 
-Install the latest version of **PHP 8.1**.
+## Install the latest version of **PHP**.
 
 ```
 sudo apt install zip unzip software-properties-common
@@ -16,7 +16,17 @@ CAVEATS:
 3. If you are using nginx, you are advised to add ppa:ondrej/nginx-mainline or ppa:ondrej/nginx
 
 
+## PHP Commands
+
+```sh
+php --ini`      #- See what extension are running.
+`php -i`        #- See what php.ini file is loaded.
+`php -m`        #- See what PHP Modules are installed.
+`conposer show -p`
 ```
+
+`sudo apt install php8.2-curl`
+```sh
 sudo apt install php-[extname]
 
 sudo apt install \

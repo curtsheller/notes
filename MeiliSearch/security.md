@@ -5,24 +5,27 @@
 
 ```
 curl \
-  -X GET 'http://localhost:7700/keys' \
+  -X GET 'http://search2.learningukulele.com/version' \
   -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1' | jq
 ```
 #### Returns:
 ```
 "results": [
+   {
+  "results": [
     {
       "name": "Default Search API Key",
       "description": "Use it to search from the frontend",
-      "key": "d0ddfbdc904f575ec79acdb5438c7235efb6bf246e7de323f1eadc7784dfa0b2",
-      "uid": "66543093-37e9-4c7e-bb3e-0c2964d78577",
+      "key": "079029f2cf83186a13933b3f237d27f3f06399894a07480ae77f3771415316a9",
+      "uid": "fdffefd8-1afb-46d5-b26e-1da9ad69599d",
     {
       "name": "Default Admin API Key",
       "description": "Use it for anything that is not a search operation. Caution! Do not expose it on a public frontend",
-      "key": "3afdfd08eae7447765d7e33956a20bd5e1f770078e1177449d09a8e446d5d593",
-      "uid": "a5edcd4d-1ce3-4bcd-a213-3f424e0fd834",
+      "key": "948cbc0bb2bb118aa4f4838fb23d0f913dc947e321f68aa25d8eb8d2c5c50d0b",
+      "uid": "24617626-889d-4d36-9bad-2140f7a1f49c",
     }
   ],
+}
 
   ```
 ----
