@@ -4,7 +4,6 @@
 ## Templates Directory
 If you put an empty text file named “New Text File.txt” into the “Templates” directory in your home, the file manager will show a “Templates” submenu when you right-click.
 
-
 # Links
 
 - **bpytop – Awesome Linux, macOS and FreeBSD resource monitor** • https://www.cyberciti.biz/open-source/command-line-hacks/bpytop-awesome-linux-macos-and-freebsd-resource-monitor/

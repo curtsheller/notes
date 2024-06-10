@@ -8,7 +8,6 @@ This was an issue of Learning Ukulele with Curt/LearningUKulele.com Newsletter. 
 
 This email brought to you by [Buttondown](https://buttondown.email/refer/curtsheller), the easiest way to start and grow your newsletter.
 
-
 ## Subscribe Form
 
 # Subscribing
@@ -26,7 +25,7 @@ If you don't see any issues of **{{ newsletter_name }}** in your inbox, be sure 
 
 1. You Promotion tab, if using Gmail
 2. Your "Spam" folder
-3 Ask your cat. The probably knocked it out of your inbox.
+3. Ask your cat. They probably knocked it out of your inbox.
 
 ### What IS You Favorite, Go To Tuning:
 

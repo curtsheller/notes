@@ -1,4 +1,4 @@
 # Install Apps
 ```bash
-sudo apt install repoman
+sudo apt install appname
 ```
