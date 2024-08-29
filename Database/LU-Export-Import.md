@@ -2,9 +2,7 @@
 
 - [ ] Change the *export file name* and .*env database name* for all references
 
-- [ ] forge-ALL-lu_2024_08_08_1530.sql
-
-- [ ] lu_lu_2024_08_08_1530.
+- [ ] forge-ALL-lu_2024_08_29_1300.sql
 
   # Production
 
@@ -13,7 +11,7 @@
 ```sh
 lussh or ssh lu
 lu
-mysqldump -u forge -pMele1-pono-lani-forgedb forge > forge-ALL-lu_2024_08_08_1530.sql
+mysqldump -u forge -pMele1-pono-lani-forgedb forge > forge-ALL-lu_2024_08_29_1300.sql
 ```
 
 # Local
@@ -22,7 +20,7 @@ mysqldump -u forge -pMele1-pono-lani-forgedb forge > forge-ALL-lu_2024_08_08_153
 
 ```sh
 # local
-scp forge@157.230.220.226:/home/forge/learningukulele.com/forge-ALL-lu_2024_08_08_1530.sql ~/Exports/forge
+scp forge@157.230.220.226:/home/forge/learningukulele.com/forge-ALL-lu_2024_08_29_1300.sql ~/Exports/forge
 
 # production
 # use filezilla
@@ -34,46 +32,47 @@ scp forge@157.230.220.226:/home/forge/learningukulele.com/forge-ALL-lu_2024_08_0
 
 - [ ] Log in to local an MySQL and create and import to database.
   - mysql -u root -pBenny7JB
-  - mysql> CREATE DATABASE lu_2024_08_08_1530;
+  - mysql> CREATE DATABASE lu_2024_08_29_1300;
   - mysql> SHOW DATABASES;
   - mysql> exit
 
 ### Production
 
 - mysql -u forge -pMele1-pono-lani-forgedb
-- mysql> CREATE DATABASE lu_2024_08_08_1530;
+- mysql> CREATE DATABASE lu_2024_08_29_1300;
 - mysql> SHOW DATABASES;
 - mysql> exit
 
 ## Drop Previous Databases (Optional)
 
 - mysql> DROP DATABASE lu_2024_03_04_1600;
+- mysql> DROP DATABASE lu_2024_08_14_2230;
 
 ## Import tables/data to new database
 
 ### Local
 
 ```
-mysql -u root -pBenny7JB lu_2024_08_08_1530 < ~/Exports/forge/forge-ALL-lu_2024_08_08_1530.sql
+mysql -u root -pBenny7JB lu_2024_08_29_1300 < ~/Exports/forge/forge-ALL-lu_2024_08_29_1300.sql
 ```
 
 ### Production
 
 ```
-mysql -u forge -pMele1-pono-lani-forgedb forge < /home/forge/learningukulele.com/database/exports/forge-ALL-lu_2024_08_08_1530.sql
+mysql -u forge -pMele1-pono-lani-forgedb forge < /home/forge/learningukulele.com/database/exports/forge-ALL-lu_2024_08_29_1300.sql
 ```
 
 Production server path for exports:
 
 ```shell
-sftp://forge@157.230.220.226/home/forge/learningukulele.com/database/exports/forge-ALL-lu_2024_08_08_1530.sql
+sftp://forge@157.230.220.226/home/forge/learningukulele.com/database/exports/forge-ALL-lu_2024_08_29_1300.sql
 ```
 
 ## Update local .env file with new "local" db name
 
 - [] Update .env file, TablePlus, DBeaver, etc
 
-- DB_DATABASE=lu_2024_08_08_1530
+- DB_DATABASE=lu_2024_08_29_1300
 
 ## cd in to learningukulele.com local site
 
