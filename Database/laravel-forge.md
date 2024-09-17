@@ -5,8 +5,10 @@ Connect to a remote database using an SSH tunnel in Laravel: https://barryvanvee
 ## Start an SSH Tunnel
 
 ```bash
-lussh
+ssh lu
 ssh -i ~/.ssh/id_rsa -N -L 13306:157.245.82.:3306 forge@157.245.82.239
+
+
 ```
 
 ### LearningUkulele.com Production .evn#
