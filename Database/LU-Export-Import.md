@@ -2,7 +2,7 @@
 
 - [ ] Change the *export file name* and .*env database name* for all references
 
-- [ ] forge-ALL-lu_2024_10_31_1500.sql
+- [ ] forge-ALL-lu_2024_11_04_0930.sql
 
   # Production
 
@@ -11,9 +11,10 @@
 ```sh
 ssh lu
 lu
-mysqldump -u forge -pMele1-pono-lani-forgedb --no-create-info --skip-add-drop-table --no-tablespaces --lock-all-tables forge  > forge-ALL-lu_2024_10_31_1500.sql
-mysqldump -u forge -pMele1-pono-lani-forgedb forge views > forge-views_2024_10_31_1500.sql
+mysqldump -u forge -pMele1-pono-lani-forgedb --no-create-info --skip-add-drop-table --no-tablespaces --lock-all-tables forge  > forge-ALL-lu_2024_11_04_0930.sql
+mysqldump -u forge -pMele1-pono-lani-forgedb forge > forge-ALL-lu_2024_11_04_0930.sql
 
+mysqldump  database_name > database_name-$(date +%Y%m%d).sql
 # Local
 
 - [] Switch to local computer and copy dump file to local.
@@ -21,10 +22,10 @@ mysqldump -u forge -pMele1-pono-lani-forgedb forge views > forge-views_2024_10_3
 ```sh
 # local
 # mysql
-scp forge@157.230.220.226:/home/forge/learningukulele.com/forge-views_2024_10_31_1500.sql ~/Exports/forge
+scp forge@157.230.220.226:/home/forge/learningukulele.com/forge-ALL-lu_2024_11_04_0930.sql ~/Exports/forge
 
 # sqlite
-scp forge@157.230.220.226:/home/forge/learningukulele.com/database/database.sqlite ~/Sites/learningukulele/database/exports/forge/database-lu_2024_10_31_1500.sqlite
+scp forge@157.230.220.226:/home/forge/learningukulele.com/database/database.sqlite ~/Sites/learningukulele/database/exports/forge/database-lu_2024_11_04_0930.sqlite
 
 # production
 # use filezilla
@@ -39,7 +40,7 @@ Import tables/data to new database.
 #### for MySQL
 - [ ] Log in to local an MySQL and create and import to database.
   - mysql -u root -pBenny7JB
-  - mysql> CREATE DATABASE lu_2024_10_31_1500;
+  - mysql> CREATE DATABASE lu_2024_11_04_0930;
   - mysql> SHOW DATABASES;
   - mysql> exit
 
@@ -51,16 +52,16 @@ Import tables/data to new database.
 ### Local
 
 ```
-mysql -u root -pBenny7JB lu_2024_10_31_1500 < ~/Exports/forge/forge-ALL-lu_2024_10_31_1500.sql
+mysql -u root -pBenny7JB lu_2024_11_04_0930 < ~/Exports/forge/forge-ALL-lu_2024_11_04_0930.sql
 
-sqlite3 ~/Sites/learningukulele/database/database.sqlite < ~/Exports/forge/converted/ALL-lu_2024_10_31_1500.sql
+sqlite3 ~/Sites/learningukulele/database/database.sqlite < ~/Exports/forge/converted/ALL-lu_2024_11_04_0930.sql
 ```
 
 ## Update local .env file with new "local" db name
 
 - [] Update .env file, TablePlus, DBeaver, etc
 
-- DB_DATABASE=lu_2024_10_31_1500
+- DB_DATABASE=lu_2024_11_04_0930
 
 ## cd in to learningukulele.com local site
 

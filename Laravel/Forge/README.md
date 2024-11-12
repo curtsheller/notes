@@ -3,6 +3,14 @@
 Provision and deploy unlimited PHP applications on DigitalOcean,
 Akamai, Vultr, Amazon, Hetzner and more. 
 
+## Mount remote site locally
+
+```sh
+    mkdir ~/remote-lu
+
+    sshfs forge@157.230.220.226:/home/forge/learningukulele.com/ ~/remote-lu
+```
+
 ## Links &amp; Resources
 
 - [Laravel: **Forge** $$$ &rArr;](https://forge.laravel.com/) &bull;
