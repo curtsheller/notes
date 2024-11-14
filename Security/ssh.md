@@ -39,6 +39,33 @@ ssh lu
 ```
 #### Links &amp; Resources
 
+# SSH FS
 
+Mounting a remote server/directory as if it is local.
+
+```sh
+mkdir ~/remote-lu
+sshfs user@remote-server:/path/to/remote/directory ~/remote-lu
+sshfs forge@157.230.220.226:/home/forge/learningukulele.com/ ~/remote-lu
+```
+
+### Install if needed
+```
+    sudo apt install sshfs      # Install
+```
+
+### Make local dir and Mount remote dir
+
+TablePlus will recognize the SQLite database as if it's on your local filesystem, simplifying access and navigation.
+```sh
+    mkdir ~/remote-lu           # Create local dir
+    sshfs forge@157.230.220.226:/home/forge/learningukulele.com/database    ~/remote-lu
+```
+
+### Unmount when done
+```sh
+
+    fusermount -u ~/remote-lu
+```
 - (Linux Handbook: Getting Started With SSH in Linux &rArr;)[https://linuxhandbook.com/ssh-basics/]
 - (Linux Handbook: Use SSH Config File to Manage SSH Connections to Various Remote Servers  &rArr;)[https://linuxhandbook.com/ssh-config-file/]

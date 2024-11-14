@@ -7,6 +7,8 @@ curl \
   -X GET 'http://localhost:7700/keys' \
   -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1'  | jq
 ```
+curl -X GET 'http://127.0.0.1:7700/indexes/users/documents?limit=2' -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1' | jq
+
 
 ### Local
 ```
