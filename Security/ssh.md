@@ -45,8 +45,10 @@ Mounting a remote server/directory as if it is local.
 
 ```sh
 mkdir ~/remote-lu
-sshfs user@remote-server:/path/to/remote/directory ~/remote-lu
-sshfs forge@157.230.220.226:/home/forge/learningukulele.com/ ~/remote-lu
+sshfs user@remote-server:/path/to/remote/directory ~/remote-db
+
+# LearningUkulele.com
+sshfs forge@157.230.220.226:/home/forge/learningukulele.com/ ~/remote-db
 ```
 
 ### Install if needed
