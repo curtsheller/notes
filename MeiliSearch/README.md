@@ -10,7 +10,8 @@ curl -L https://install.meilisearch.com | sh
 
 ```
 # Launch Meilisearch
-./meilisearch --master-key="mele1-pono-lani-meilisearch-v1"
+
+meilisearch --master-key="mele1-pono-lani-meilisearch-v1"
 ```
 
 An open source, amazingly fast and hyper relevant search-engine that will improve your search experience.
