@@ -18,7 +18,7 @@ curl -L https://install.meilisearch.com | sh
 
 ## Updating
 
- For local and production you can safely delete current meilisearch versio without a dump and simply install the latest version of Meilisearch required.
+ For local and production you can safely delete current meilisearch version without a dump and simply install the latest version of Meilisearch required.
 
 
  ```
