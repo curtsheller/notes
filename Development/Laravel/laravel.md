@@ -1,7 +1,6 @@
 # Install on Linux
 
-- [**Install Laravel In Ubuntu 20.04 “LTS”** -->](http://www.linuxandubuntu.com/home/install-laravel-in-ubuntu-20-04-lts) &bull;
-- [**How to install Laravel on Ubuntu 20.04? =>**](https://www.osradar.com/install-laravel-ubuntu-2004/)
+_see the `README.md` file._
 
 # Required PHP Extensions
 
