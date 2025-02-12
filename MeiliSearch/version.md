@@ -8,48 +8,16 @@ curl \
   -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1'  | jq
 ```
 
-#### Response
-```
-{
-  "commitSha": "928930ddd552596f51280a17c143cf38079cdea9",
-  "commitDate": "2021-09-13T10:17:10+00:00",
-  "pkgVersion": "0.22.0"
-}
-```
-
 ### Production: search.learningukulele.com
 
 Use private key to access
 - Use private key
 
 ```
-curl \
--H "X-Meili-API-Key: 1e2341068cf4d1e35b0dac99de5d889a6e5b1faa74cc0587f61796dbd938345a" \
--X GET 'https://search.curtsheller-dev.com/version' | jq
-```
-
-```
-{
-    "commitSha":"928930ddd552596f51280a17c143cf38079cdea9",
-    "commitDate":"2021-09-13T10:17:10+00:00",
-    "pkgVersion":"0.22.0"
-}
-```
-
-### Production: search.curtsheller-dev.com
-- Use private key
-```
-curl \
-    -H "X-Meili-API-Key: 1e2341068cf4d1e35b0dac99de5d889a6e5b1faa74cc0587f61796dbd938345a" \
-    -X GET 'https://search.curtsheller-dev.com/version'
-```
-
-```
-{
-  "commitSha": "2e2eeb0a424408e27f4223e58afec303c53e1419",
-  "commitDate": "2021-10-12T14:47:06+00:00",
-  "pkgVersion": "0.23.1"
-}
+  curl \
+  -H "X-Meili-API-Key: 948cbc0bb2bb118aa4f4838fb23d0f913dc947e321f68aa25d8eb8d2c5c50d0b" \
+  'https://search.learningukulele.com/version' \
+  -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1'  | jq
 ```
 
 ----

@@ -9,11 +9,24 @@
 
 ```sh
 # Install Meilisearch
-curl -L https://install.meilisearch.com | sh
+```sh
+    curl -L https://install.meilisearch.com | sh
+```
 
+To us a specific version:
+
+```sh
+    MEILISEARCH_VERSION=v1.1.0 curl -L https://install.meilisearch.com | sh
+```
 # Launch Meilisearch
 ```sh
-./meilisearch --master-key="mele1-pono-lani-meilisearch-v1"
+    ./meilisearch --master-key="mele1-pono-lani-meilisearch-v1"
+```
+
+```sh
+    curl \
+    -X GET 'http://localhost:7700/version' \
+    -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1'  | jq
 ```
 
 ## Updating
