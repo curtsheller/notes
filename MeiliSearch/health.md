@@ -4,31 +4,22 @@
 ### Local
 ```
 curl \
-  -X GET 'http://localhost:7700/keys' \
-  -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1'  | jq
-```
-
-
-### Local
-```
-curl \
-  -X GET 'http://localhost:7700/keys' \
+  -X GET 'http://localhost:7700/health' \
   -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1'  | jq
 ```
 
 ### Production: search.learningukulele.com
-```
-curl \
-  -X GET 'https://search.learningukulele.com/keys' \
-  -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1'  | jq
-```
 
-### Production: search2.learningukulele.com
+Use private key to access
+- Use private key
+
 ```
-curl \
-  -X GET 'http://search2.learningukulele.com/keys' \
+  curl \
+  -H "X-Meili-API-Key: 948cbc0bb2bb118aa4f4838fb23d0f913dc947e321f68aa25d8eb8d2c5c50d0b" \
+  'https://search.learningukulele.com/health' \
   -H 'Authorization: Bearer mele1-pono-lani-meilisearch-v1'  | jq
 ```
 
 ----
 ****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2025-02-17**]
+
