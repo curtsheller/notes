@@ -43,6 +43,24 @@ php-zip
 sudo apt install php8.1-soap     # Needed for some Laravel packages.
 ```
 
+## Updating Local curl ssl serts
+
+```sh
+sudo apt-get update && sudo apt-get install -y ca-certificates
+```
+### curl and openssl entries
+- curl.cainfo = "/etc/ssl/certs/ca-certificates.crt"
+- openssl.cafile = "/etc/ssl/certs/ca-certificates.crt"
+
+### Possible Locations
+/etc/php/8.2/cli/php.ini
+/etc/php/8.2/fpm/php.ini
+
+Can use to find all .ini file related for php
+```sh
+php --ini
+---
+
 #### Links
 
 - [*Laravel Sail** &#128279;](https://laravel.com/docs/9.x/sail) &bull; Laravel Sail is a light-weight command-line interface for interacting with Laravel's default Docker development environment. Sail provides a great starting point for building a Laravel application using PHP, MySQL, and Redis without requiring prior Docker experience. **Laravel Sail** is supported on macOS, Linux, and Windows (via WSL2).
