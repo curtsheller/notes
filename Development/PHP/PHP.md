@@ -56,9 +56,13 @@ sudo apt-get update && sudo apt-get install -y ca-certificates
 /etc/php/8.2/cli/php.ini
 /etc/php/8.2/fpm/php.ini
 
-Can use to find all .ini file related for php
+Can use to find all .ini file related for php. Then apply the edits and restart the server.
+
 ```sh
 php --ini
+sudo systemctl restart php8.2-fpm
+# or
+valet restart
 ---
 
 #### Links
