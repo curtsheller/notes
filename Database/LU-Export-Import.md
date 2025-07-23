@@ -1,5 +1,8 @@
 # MySQL: LearningUkulele.com Export and Local Import
 
+
+# 2025 - Not usin MySQL - using SQLite.
+
 - [ ] Change the *export file name* and .*env database name* for all references
 
 - [ ] forge-ALL-lu_2024_11_04_0930.sql
