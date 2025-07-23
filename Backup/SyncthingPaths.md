@@ -9,6 +9,12 @@
 
 Linux volumes start with **/media**.
 
+## Meerket CSP Computer
+
+- Using for testing. Some of CSP and FunkyFrest folder are on the Meerket as well. Same /media/curtsheller/<dir\>
+
+	The `CSP-LU` external drive is attached to the Meerket.
+
 ### Examples
 #### FunkyFrets Drive
 - /media/curtsheller/FunkyFrets/<dir\>
@@ -29,7 +35,8 @@ macOS volumes start with **/Volumes**.
 
 - /Volumes/CSP
 - /Volumes/CSP/<dir\>
-- /Volumes/FunkyFrets\ /1/
+- /Volumes/FunkyFrets/<dir\>
+- /Volumes/FunkyFrets/
 
 The `\ /1/` is strange and don't know why.
 
