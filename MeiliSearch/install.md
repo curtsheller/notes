@@ -30,22 +30,11 @@
     ./meilisearch --master-key="mele1-pono-lani-meilisearch-v1"
 ```
 
-### INstalling Older Versions
+### Installing Older Versions
 ```sh
-    # Replace {meilisearch_version} and {meilisearch_os} with the specific version and OS you want to download
-    # For example, if you want to download v1.0 on macOS,
-    # replace {meilisearch_version} and {meilisearch_os} with v1.0 and meilisearch-macos-amd64 respectively
-    curl -OL https://github.com/meilisearch/meilisearch/releases/download/v1.1.0/meilisearch-linux-amd64
-
-    # Rename binary to meilisearch. Replace {meilisearch_os} with the name of the downloaded binary
-    mv meilisearch-linux-amd64 meilisearch
-
-    # Give the binary execute permission
-    chmod +x meilisearch
-
-    # Launch Meilisearch (NOTE: delete any previous 'data.ms' database.)
-    ./meilisearch --master-key="mele1-pono-lani-meilisearch-v1"
+    # see `install-meilisearch.sh`
 ```
+
 ## Uninstall
 To delete all local versions of Meilisearch on Linux, you need to remove the binary, configuration files, data directory, and any associated systemd services.
 
@@ -88,7 +77,7 @@ To delete all local versions of Meilisearch on Linux, you need to remove the bin
 _see above_
 
  # Production Cloud
- Digital is a few version below the latest Meilisearch is using the marketplace version. GOing by hand to get the latest.
+ DigitalOcean is a few version below the latest Meilisearch is using the marketplace version. Going by hand to get the latest.
 
 ```
 # ssh in
@@ -98,4 +87,4 @@ meilisearch-set
 
 
 ----
-****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2025-02-17**]
+****Curt Sheller Publications**/**Funky Frets • **CSP**: Pottstown, PA 19464 USA • [curt@curtsheller.com](mailto:curt@curtsheller.com) [UPDATED: **2025-07-22**]
