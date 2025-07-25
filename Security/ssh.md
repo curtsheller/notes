@@ -50,7 +50,7 @@ sshfs forge@157.230.220.226:/home/forge/learningukulele.com/ ~/remote-lu
 
 ### Install if needed
 ```
-    sudo apt install sshfs      # Install
+    sudo apt install sshfs
 ```
 
 ### Make local dir and Mount remote dir
